@@ -1,0 +1,27 @@
+nav{
+  position: fixed;
+  width: 100%;
+  top:0;
+  left:0;
+  z-index: 10;
+}
+.vert{
+  position: fixed;
+  left: 0;
+  top: 15vh;
+  z-index: 10;
+}
+main{
+  margin-top: 10.5vh;
+  height: 200vh;
+  border: solid red;
+}
+@media (max-width: 375px) {
+  main{
+    margin-top: 34vh;
+  }
+  .vert{
+    top: 40vh;
+  }
+
+}

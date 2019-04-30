@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import {Icon,Button} from 'semantic-ui-react'
+import {Icon} from 'semantic-ui-react'
 
 function App() {
   return (
     <div>
-      <nav class="ui menu huge">
+      <nav class="ui stackable borderless menu huge">
         <h1 class="item header">
           Cai H. Yang
         </h1>
@@ -25,7 +25,7 @@ function App() {
         </div>
       </nav>
 
-      <div class="ui vertical labeled icon menu">
+      <div class="ui vertical labeled icon menu vert">
         <a href="https://www.linkedin.com/in/caihyang/" rel="noopener noreferrer" target="_blank" class="item">
           <Icon size="small" name="linkedin" />
           Linkedin
@@ -35,6 +35,7 @@ function App() {
           GitHub
         </a>
       </div>
+      <main className="testing"></main>
 
     </div>
   );
