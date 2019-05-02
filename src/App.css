@@ -14,8 +14,8 @@ nav{
 main{
   margin-top: 10.5vh;
   height: 200vh;
-  border: solid red;
 }
+
 @media (max-width: 375px) {
   main{
     margin-top: 34vh;

@@ -35,7 +35,20 @@ function App() {
           GitHub
         </a>
       </div>
-      <main className="testing"></main>
+      <main className="testing">
+        <section className = "about">
+
+        </section>
+        <section className = "experience">
+
+        </section>
+        <section className = "works">
+
+        </section>
+        <section className = "contact">
+
+        </section>
+      </main>
 
     </div>
   );
