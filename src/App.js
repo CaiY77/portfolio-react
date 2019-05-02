@@ -11,20 +11,20 @@ class App extends Component {
   render() {
     return (<div>
       <nav class="ui stackable borderless menu huge">
-        <h1 class="item header">
-          Cai H. Yang
+        <h1 class="item header my-name">
+          CAI H. YANG
         </h1>
         <div class="right menu">
-          <a href="#about" class="item">
+          <a href="#about" class="item nav-item">
             ABOUT
           </a>
-          <a href="#experience" class="item">
+          <a href="#experience" class="item nav-item">
             EXPERIENCE
           </a>
-          <a href="#works" class="item">
+          <a href="#works" class="item nav-item">
             WORKS
           </a>
-          <a href="#contact" class="item">
+          <a href="#contact" class="item nav-item">
             CONTACT
           </a>
         </div>
@@ -41,7 +41,14 @@ class App extends Component {
         </a>
       </div>
       <main className="testing">
-        <section id="about"></section>
+        <section id="about">
+          <h1>Cai H. Yang</h1>
+          <h2> Software Engineer | Full-Stack Developer </h2>
+          <p> I enjoy building applications from the ground-up
+            <br/> as well as using logical deduction with algorithmic
+            <br/>approaches to solve problems/puzzles and technical issues.
+          </p>
+        </section>
         <section id="experience"></section>
         <section id="works"></section>
         <section id="contact"></section>

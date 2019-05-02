@@ -5,17 +5,27 @@ nav{
   left:0;
   z-index: 10;
 }
+
 .vert{
   position: fixed;
   left: 0;
   top: 15vh;
   z-index: 10;
 }
+
 section{
   margin-top: 10.5vh;
   height: 200vh;
 }
+.nav-item{
+letter-spacing: 3px;
+font-family: "Courier New", Courier, monospace;
+}
 
+.my-name{
+  letter-spacing: 5px;
+  font-family: "Courier New", Courier, monospace;
+}
 
 @media (max-width: 375px) {
   main{
