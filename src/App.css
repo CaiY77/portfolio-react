@@ -11,10 +11,11 @@ nav{
   top: 15vh;
   z-index: 10;
 }
-main{
+section{
   margin-top: 10.5vh;
   height: 200vh;
 }
+
 
 @media (max-width: 375px) {
   main{

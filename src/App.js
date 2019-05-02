@@ -10,16 +10,16 @@ function App() {
           Cai H. Yang
         </h1>
         <div class="right menu">
-          <a href="#" class="item">
+          <a href="#about" class="item">
             ABOUT
           </a>
-          <a href="#" class="item">
+          <a href="#experience" class="item">
             EXPERIENCE
           </a>
-          <a href="#" class="item">
+          <a href="#works" class="item">
             WORKS
           </a>
-          <a href="#" class="item">
+          <a href="#contact" class="item">
             CONTACT
           </a>
         </div>
@@ -36,16 +36,16 @@ function App() {
         </a>
       </div>
       <main className="testing">
-        <section className = "about">
+        <section id = "about">
 
         </section>
-        <section className = "experience">
+        <section id = "experience">
 
         </section>
-        <section className = "works">
+        <section id = "works">
 
         </section>
-        <section className = "contact">
+        <section id = "contact">
 
         </section>
       </main>
