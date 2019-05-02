@@ -42,9 +42,9 @@ class App extends Component {
       </div>
       <main className="testing">
         <section id="about">
-          <h1>Cai H. Yang</h1>
-          <h2> Software Engineer | Full-Stack Developer </h2>
-          <p> I enjoy building applications from the ground-up
+          <h1 id="about-n">Cai H. Yang</h1>
+          <h2 id="about-h"> Software Engineer | Full-Stack Developer </h2>
+          <p id="about-p"> I enjoy building applications from the ground-up
             <br/> as well as using logical deduction with algorithmic
             <br/>approaches to solve problems/puzzles and technical issues.
           </p>

@@ -5,7 +5,6 @@ nav{
   left:0;
   z-index: 10;
 }
-
 .vert{
   position: fixed;
   left: 0;
@@ -13,10 +12,6 @@ nav{
   z-index: 10;
 }
 
-section{
-  margin-top: 10.5vh;
-  height: 200vh;
-}
 .nav-item{
 letter-spacing: 3px;
 font-family: "Courier New", Courier, monospace;
@@ -25,6 +20,21 @@ font-family: "Courier New", Courier, monospace;
 .my-name{
   letter-spacing: 5px;
   font-family: "Courier New", Courier, monospace;
+}
+#about{
+  border:solid red;
+  margin: 10.5vh 0 0 5vw;
+  padding: 20vh 0 20vh 5vw;
+}
+#about-n{
+  font-family: "Courier New", Courier, monospace;
+}
+#about-h{
+  font-family: "Courier New", Courier, monospace;
+}
+#about-p{
+  font-family: "Courier New", Courier, monospace;
+  line-height: 2;
 }
 
 @media (max-width: 375px) {
