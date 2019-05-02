@@ -1,10 +1,15 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import {Icon} from 'semantic-ui-react'
 
-function App() {
-  return (
-    <div>
+class App extends Component {
+
+  componentDidMount() {
+    document.title = 'Cai Yang | Software Engineer';
+  }
+
+  render() {
+    return (<div>
       <nav class="ui stackable borderless menu huge">
         <h1 class="item header">
           Cai H. Yang
@@ -27,31 +32,23 @@ function App() {
 
       <div class="ui vertical labeled icon menu vert">
         <a href="https://www.linkedin.com/in/caihyang/" rel="noopener noreferrer" target="_blank" class="item">
-          <Icon size="small" name="linkedin" />
+          <Icon size="small" name="linkedin"/>
           Linkedin
         </a>
         <a href="https://github.com/CaiY77" rel="noopener noreferrer" target="_blank" class="item">
-          <Icon size="small" name="github" />
+          <Icon size="small" name="github"/>
           GitHub
         </a>
       </div>
       <main className="testing">
-        <section id = "about">
-
-        </section>
-        <section id = "experience">
-
-        </section>
-        <section id = "works">
-
-        </section>
-        <section id = "contact">
-
-        </section>
+        <section id="about"></section>
+        <section id="experience"></section>
+        <section id="works"></section>
+        <section id="contact"></section>
       </main>
 
-    </div>
-  );
+    </div>);
+  }
 }
 
 export default App;
