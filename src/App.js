@@ -12,7 +12,7 @@ class App extends Component {
     return (<div>
       <nav class="ui stackable borderless menu huge">
         <h1 class="item header my-name">
-          CAI H. YANG
+          CY
         </h1>
         <div class="right menu">
           <a href="#about" class="item nav-item">
@@ -44,12 +44,15 @@ class App extends Component {
         <section id="about">
           <h1 id="about-n">Cai H. Yang</h1>
           <h2 id="about-h"> Software Engineer | Full-Stack Developer </h2>
+          <br/>
           <p id="about-p"> I enjoy building applications from the ground-up
             <br/> as well as using logical deduction with algorithmic
             <br/>approaches to solve problems/puzzles and technical issues.
           </p>
         </section>
-        <section id="experience"></section>
+        <section id="experience">
+          <p></p>
+        </section>
         <section id="works"></section>
         <section id="contact"></section>
       </main>
