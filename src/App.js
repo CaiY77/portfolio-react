@@ -31,6 +31,10 @@ class App extends Component {
       </nav>
 
       <div class="ui vertical labeled icon menu vert">
+        <a href="#" rel="noopener noreferrer" target="_blank" class="item">
+          <Icon size="small" name="file alternate"/>
+          Resume
+        </a>
         <a href="https://www.linkedin.com/in/caihyang/" rel="noopener noreferrer" target="_blank" class="item">
           <Icon size="small" name="linkedin"/>
           Linkedin
