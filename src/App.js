@@ -67,19 +67,40 @@ class App extends Component {
                   <a href="https://ani-manage.herokuapp.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
                 </div>
                 <Card.Header className="cardTitles">Ani-Manage</Card.Header>
-                <Card.Description>
-
+                <Card.Description className="cardDescrip">
+                  An animation search engine built on React.js that uses data pulled from Jikan's API.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
                 <List horizontal>
-                  <List.Item>React.js</List.Item>
+                  <List.Item>React</List.Item>
                   <List.Item>API</List.Item>
+                  <List.Item>Axios</List.Item>
+                  <List.Item>Semantic-Ui-CSS/React</List.Item>
                 </List>
               </Card.Content>
             </Card>
 
-            <Card></Card>
+            <Card>
+              <Card.Content>
+                <div className="gitLinks">
+                  <a href="https://github.com/CaiY77/My-Arcade" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
+                  <a href="https://cai-arcade.netlify.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
+                </div>
+                <Card.Header className="cardTitles">Cai's Arcade</Card.Header>
+                <Card.Description className="cardDescrip">
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <List horizontal>
+                  <List.Item>Javascript/JS6</List.Item>
+                  <List.Item>CSS</List.Item>
+                  <List.Item>HTML</List.Item>
+                  <List.Item>OOP</List.Item>
+                </List>
+              </Card.Content>
+            </Card>
+
             <Card></Card>
             <Card></Card>
             <Card></Card>
