@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Icon} from 'semantic-ui-react'
+import {Icon,Modal,Card} from 'semantic-ui-react'
 
 class App extends Component {
 
@@ -9,7 +9,7 @@ class App extends Component {
   }
 
   render() {
-    return (<div>
+    return (<div className="main-contain">
       <nav class="ui stackable borderless menu huge">
         <h1 class="item header my-name">
           CY
@@ -57,7 +57,14 @@ class App extends Component {
         <section id="experience">
           <p></p>
         </section>
-        <section id="works"></section>
+        <section id="works">
+          <Card>
+
+            <Icon name="folder open outline" size="huge"/>
+
+
+          </Card>
+        </section>
         <section id="contact"></section>
       </main>
 

@@ -1,3 +1,7 @@
+.main-contain{
+  background: linear-gradient(180deg, #232526, #414345);
+  background-attachment: fixed;
+}
 nav{
   position: fixed;
   width: 100%;
@@ -24,18 +28,22 @@ font-family: "Courier New", Courier, monospace;
 #about{
   margin: 10.5vh 0 0 5vw;
   padding: 20vh 0 20vh 5vw;
+  color:white;
 }
 #about-n{
   font-size: 4em;
   font-family: "Courier New", Courier, monospace;
+  color:white;
 }
 #about-h{
   font-size: 2.5em;
   font-family: "Courier New", Courier, monospace;
+  color:white;
 }
 #about-p{
   font-size: 1.7em;
   font-family: "Courier New", Courier, monospace;
+  color:white;
   line-height: 2;
 }
 
