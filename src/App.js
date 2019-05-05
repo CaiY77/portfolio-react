@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Icon,Modal,Card} from 'semantic-ui-react'
+import {Icon,Card,List} from 'semantic-ui-react'
 
 class App extends Component {
 
@@ -59,26 +59,33 @@ class App extends Component {
         </section>
         <section id="works">
           <Card.Group itemsPerRow={3}>
+
             <Card>
-              <Icon name="folder open outline" size="huge"/>
+              <Card.Content>
+                <div className="gitLinks">
+                  <a href="https://github.com/CaiY77/ani-manage" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
+                  <a href="https://ani-manage.herokuapp.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
+                </div>
+                <Card.Header className="cardTitles">Ani-Manage</Card.Header>
+                <Card.Description>
+
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <List horizontal>
+                  <List.Item>React.js</List.Item>
+                  <List.Item>API</List.Item>
+                </List>
+              </Card.Content>
             </Card>
-            <Card>
-              <Icon name="folder open outline" size="huge"/>
-            </Card>
-            <Card>
-              <Icon name="folder open outline" size="huge"/>
-            </Card>
-            <Card>
-              <Icon name="folder open outline" size="huge"/>
-            </Card>
-            <Card>
-              <Icon name="folder open outline" size="huge"/>
-            </Card>
-            <Card>
-              <Icon name="folder open outline" size="huge"/>
-            </Card>
+
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
           </Card.Group>
-          </section>
+        </section>
         <section id="contact"></section>
       </main>
 
