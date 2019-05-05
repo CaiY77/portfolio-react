@@ -58,7 +58,13 @@ a{
   text-align: right;
 }
 .cardTitles{
-  font-size: 1.5em !important;
+  padding:2vh 2vw 0 2vw;
+  font-size: 2em !important;
+}
+.cardDescrip{
+  height: 20vh;
+  padding: 4vh 2vw 0 2vw;
+  font-size: 1.2em !important;
 }
 @media (max-width: 375px) {
   main{

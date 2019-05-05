@@ -76,7 +76,8 @@ class App extends Component {
                   <List.Item>React</List.Item>
                   <List.Item>API</List.Item>
                   <List.Item>Axios</List.Item>
-                  <List.Item>Semantic-Ui-CSS/React</List.Item>
+                  <List.Item>React-Router-Dom</List.Item>
+                  <List.Item>Semantic-Ui</List.Item>
                 </List>
               </Card.Content>
             </Card>
@@ -89,6 +90,8 @@ class App extends Component {
                 </div>
                 <Card.Header className="cardTitles">Cai's Arcade</Card.Header>
                 <Card.Description className="cardDescrip">
+                  Web based arcade filled with games based of remakes of the classics or creation on the spot.
+                  Uses HTML/CSS and a lot OOP Javascript.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
