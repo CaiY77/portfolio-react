@@ -58,13 +58,27 @@ class App extends Component {
           <p></p>
         </section>
         <section id="works">
-          <Card>
-
-            <Icon name="folder open outline" size="huge"/>
-
-
-          </Card>
-        </section>
+          <Card.Group itemsPerRow={3}>
+            <Card>
+              <Icon name="folder open outline" size="huge"/>
+            </Card>
+            <Card>
+              <Icon name="folder open outline" size="huge"/>
+            </Card>
+            <Card>
+              <Icon name="folder open outline" size="huge"/>
+            </Card>
+            <Card>
+              <Icon name="folder open outline" size="huge"/>
+            </Card>
+            <Card>
+              <Icon name="folder open outline" size="huge"/>
+            </Card>
+            <Card>
+              <Icon name="folder open outline" size="huge"/>
+            </Card>
+          </Card.Group>
+          </section>
         <section id="contact"></section>
       </main>
 
