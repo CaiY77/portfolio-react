@@ -1,71 +1,83 @@
-.main-contain{
+.main-contain {
   background: linear-gradient(180deg, #232526, #414345);
   background-attachment: fixed;
 }
-nav{
+
+nav {
   position: fixed;
   width: 100%;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   z-index: 10;
 }
-.vert{
+
+.vert {
   position: fixed;
   left: 0;
   top: 15vh;
   z-index: 10;
 }
-.email{
+
+.email {
   letter-spacing: 2px;
   font-size: 1.5em;
 }
-.nav-item{
-letter-spacing: 3px;
-font-family: "Courier New", Courier, monospace;
+
+.nav-item {
+  letter-spacing: 3px;
+  font-family: "Courier New", Courier, monospace;
 }
 
-a{
+a {
   text-decoration: none !important;
 }
 
-.my-name{
+.my-name {
   letter-spacing: 5px;
   font-family: "Courier New", Courier, monospace;
 }
-#about{
+
+#about {
   margin: 10.5vh 0 0 5vw;
   padding: 20vh 0 20vh 5vw;
-  color:white;
+  color: white;
 }
-#about-n{
+
+#about-n {
   font-size: 4em;
   font-family: "Courier New", Courier, monospace;
-  color:white;
+  color: white;
 }
-#about-h{
+
+#about-h {
   font-size: 2.5em;
   font-family: "Courier New", Courier, monospace;
-  color:white;
+  color: white;
 }
-#about-p{
+
+#about-p {
   font-size: 1.7em;
   font-family: "Courier New", Courier, monospace;
-  color:white;
+  color: white;
   line-height: 2;
   margin-bottom: 6vh;
 }
-#works{
-  border:solid red;
+
+#works {
+  border: solid red;
   padding: 5vh 6vw 5vh 6vw;
 }
-.gitLinks{
+
+.gitLinks {
   text-align: right;
 }
-.cardTitles{
-  padding:2vh 2vw 0 2vw;
+
+.cardTitles {
+  padding: 2vh 2vw 0 2vw;
   font-size: 2em !important;
 }
-.cardDescrip{
+
+.cardDescrip {
   height: 25vh;
   padding: 4vh 2vw 0 2vw;
   line-height: 1.5;
@@ -73,11 +85,11 @@ a{
 }
 
 @media (max-width: 375px) {
-  main{
+  main {
     margin-top: 34vh;
   }
-  .vert{
+
+  .vert {
     top: 40vh;
   }
-
 }
