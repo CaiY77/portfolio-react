@@ -30,7 +30,7 @@ class App extends Component {
       </nav>
 
       <div class="ui vertical labeled icon menu vert">
-        <a href="#" rel="noopener noreferrer" target="_blank" class="item">
+        <a href="https://docdro.id/3YVUHpu" rel="noopener noreferrer" target="_blank" class="item">
           <Icon size="small" name="file alternate"/>
           Resume
         </a>
@@ -63,102 +63,98 @@ class App extends Component {
         </section>
 
         <section id="works">
+          
           <h1>My Works</h1>
+
           <Card.Group stackable itemsPerRow={3}>
 
-            
-              <Card>
-                <Card.Content>
-                  <div className="gitLinks">
-                    <a href="https://github.com/CaiY77/ani-manage" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
-                    <a href="https://ani-manage.herokuapp.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
-                  </div>
-                  <Card.Header className="cardTitles">Ani-Manage</Card.Header>
-                  <Card.Description className="cardDescrip">
-                    An animation search engine built on React.js that uses data pulled from Jikan's API.
-                    Managing states in a way that allows users to bookmark favorites as well as the integration of local storage
-                    to store bookmark data. Deployed with Heroku.
-                  </Card.Description>
-                </Card.Content>
-                <Card.Content extra>
-                  <List horizontal>
-                    <List.Item>React</List.Item>
-                    <List.Item>API</List.Item>
-                    <List.Item>Axios</List.Item>
-                    <List.Item>Heroku</List.Item>
-                    <List.Item>React-Router</List.Item>
-                    <List.Item>Semantic-Ui</List.Item>
-                  </List>
-                </Card.Content>
-              </Card>
+            <Card>
+              <Card.Content>
+                <div className="gitLinks">
+                  <a href="https://github.com/CaiY77/ani-manage" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
+                  <a href="https://ani-manage.herokuapp.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
+                </div>
+                <Card.Header className="cardTitles">Ani-Manage</Card.Header>
+                <Card.Description className="cardDescrip">
+                  An animation search engine built on React.js that uses data pulled from Jikan's API.
+                  Managing states in a way that allows users to bookmark favorites as well as the integration of local storage
+                  to store bookmark data. Deployed with Heroku.
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <List horizontal>
+                  <List.Item>React</List.Item>
+                  <List.Item>API</List.Item>
+                  <List.Item>Axios</List.Item>
+                  <List.Item>Heroku</List.Item>
+                  <List.Item>React-Router</List.Item>
+                  <List.Item>Semantic-Ui</List.Item>
+                </List>
+              </Card.Content>
+            </Card>
 
+            <Card>
+              <Card.Content>
+                <div className="gitLinks">
+                  <a href="https://github.com/CaiY77/My-Arcade" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
+                  <a href="https://cai-arcade.netlify.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
+                </div>
+                <Card.Header className="cardTitles">Cai's Arcade</Card.Header>
+                <Card.Description className="cardDescrip">
+                  A fully functional web based arcade filled with games based of remakes of the classics or creation on the spot.
+                  Uses HTML/CSS and a lot OOP Javascript.
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <List horizontal>
+                  <List.Item>Javascript/JS6</List.Item>
+                  <List.Item>CSS</List.Item>
+                  <List.Item>HTML</List.Item>
+                  <List.Item>OOP</List.Item>
+                </List>
+              </Card.Content>
+            </Card>
 
+            <Card>
+              <Card.Content>
+                <div className="gitLinks">
+                  <a href="https://github.com/CaiY77/PS_Final" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
+                  <a href="https://my-league-picks.netlify.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
+                </div>
+                <Card.Header className="cardTitles">League-Picks</Card.Header>
+                <Card.Description className="cardDescrip">
+                  Blog like webpage to show mastery in HTML, CSS and Javascript. Implemented best practices in the Web Developement field.
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <List horizontal>
+                  <List.Item>Javascript/JS6</List.Item>
+                  <List.Item>HTML</List.Item>
+                  <List.Item>CSS</List.Item>
+                  <List.Item>JQuery</List.Item>
+                </List>
+              </Card.Content>
+            </Card>
 
-              <Card>
-                <Card.Content>
-                  <div className="gitLinks">
-                    <a href="https://github.com/CaiY77/My-Arcade" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
-                    <a href="https://cai-arcade.netlify.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
-                  </div>
-                  <Card.Header className="cardTitles">Cai's Arcade</Card.Header>
-                  <Card.Description className="cardDescrip">
-                    Web based arcade filled with games based of remakes of the classics or creation on the spot.
-                    Uses HTML/CSS and a lot OOP Javascript.
-                  </Card.Description>
-                </Card.Content>
-                <Card.Content extra>
-                  <List horizontal>
-                    <List.Item>Javascript/JS6</List.Item>
-                    <List.Item>CSS</List.Item>
-                    <List.Item>HTML</List.Item>
-                    <List.Item>OOP</List.Item>
-                  </List>
-                </Card.Content>
-              </Card>
-
-
-
-              <Card>
-                <Card.Content>
-                  <div className="gitLinks">
-                    <a href="https://github.com/CaiY77/PS_Final" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
-                    <a href="https://my-league-picks.netlify.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
-                  </div>
-                  <Card.Header className="cardTitles">League-Picks</Card.Header>
-                  <Card.Description className="cardDescrip">
-                  </Card.Description>
-                </Card.Content>
-                <Card.Content extra>
-                  <List horizontal>
-                    <List.Item>Javascript/JS6</List.Item>
-                    <List.Item>HTML</List.Item>
-                    <List.Item>CSS</List.Item>
-                    <List.Item>JQuery</List.Item>
-                  </List>
-                </Card.Content>
-              </Card>
-
-
-
-              <Card>
-                <Card.Content>
-                  <div className="gitLinks">
-                    <a href="https://github.com/CaiY77/Calculator-Proj2" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
-                    <a href="https://web-calculator.netlify.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
-                  </div>
-                  <Card.Header className="cardTitles">Web-Calculator</Card.Header>
-                  <Card.Description className="cardDescrip">
-                  </Card.Description>
-                </Card.Content>
-                <Card.Content extra>
-                  <List horizontal>
-                    <List.Item>Javascript/JS6</List.Item>
-                    <List.Item>HTML</List.Item>
-                    <List.Item>CSS</List.Item>
-                  </List>
-                </Card.Content>
-              </Card>
-
+            <Card>
+              <Card.Content>
+                <div className="gitLinks">
+                  <a href="https://github.com/CaiY77/Calculator-Proj2" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
+                  <a href="https://web-calculator.netlify.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
+                </div>
+                <Card.Header className="cardTitles">Web-Calculator</Card.Header>
+                <Card.Description className="cardDescrip">
+                  Interactive web calculator that does all basic operations with an addition of an average feature.
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <List horizontal>
+                  <List.Item>Javascript/JS6</List.Item>
+                  <List.Item>HTML</List.Item>
+                  <List.Item>CSS</List.Item>
+                </List>
+              </Card.Content>
+            </Card>
 
             <Card></Card>
             <Card></Card>
