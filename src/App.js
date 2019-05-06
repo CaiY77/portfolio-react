@@ -119,7 +119,10 @@ class App extends Component {
               </Card.Content>
               <Card.Content extra>
                 <List horizontal>
-
+                  <List.Item>Javascript/JS6</List.Item>
+                  <List.Item>HTML</List.Item>
+                  <List.Item>CSS</List.Item>
+                  <List.Item>JQuery</List.Item>
                 </List>
               </Card.Content>
             </Card>
