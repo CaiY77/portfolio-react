@@ -60,7 +60,7 @@ class App extends Component {
         <section id="works">
           <Card.Group itemsPerRow={3}>
 
-            <Card>
+            <Card href="#">
               <Card.Content>
                 <div className="gitLinks">
                   <a href="https://github.com/CaiY77/ani-manage" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
@@ -69,6 +69,8 @@ class App extends Component {
                 <Card.Header className="cardTitles">Ani-Manage</Card.Header>
                 <Card.Description className="cardDescrip">
                   An animation search engine built on React.js that uses data pulled from Jikan's API.
+                  Managing states in a way that allows users to bookmark favorites as well as the integration of local storage
+                  to store bookmark data. Deployed with Heroku.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -76,13 +78,14 @@ class App extends Component {
                   <List.Item>React</List.Item>
                   <List.Item>API</List.Item>
                   <List.Item>Axios</List.Item>
-                  <List.Item>React-Router-Dom</List.Item>
+                  <List.Item>Heroku</List.Item>
+                  <List.Item>React-Router</List.Item>
                   <List.Item>Semantic-Ui</List.Item>
                 </List>
               </Card.Content>
             </Card>
 
-            <Card>
+            <Card href="#">
               <Card.Content>
                 <div className="gitLinks">
                   <a href="https://github.com/CaiY77/My-Arcade" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
@@ -104,7 +107,22 @@ class App extends Component {
               </Card.Content>
             </Card>
 
-            <Card></Card>
+            <Card href="#">
+              <Card.Content>
+                <div className="gitLinks">
+                  <a href="https://github.com/CaiY77/PS_Final" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
+                  <a href="https://my-league-picks.netlify.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
+                </div>
+                <Card.Header className="cardTitles">League-Picks</Card.Header>
+                <Card.Description className="cardDescrip">
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <List horizontal>
+
+                </List>
+              </Card.Content>
+            </Card>
             <Card></Card>
             <Card></Card>
             <Card></Card>

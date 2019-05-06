@@ -52,7 +52,7 @@ a{
 }
 #works{
   border:solid red;
-  padding: 5vh 5vw 5vh 5vw;
+  padding: 5vh 6vw 5vh 6vw;
 }
 .gitLinks{
   text-align: right;
@@ -62,8 +62,9 @@ a{
   font-size: 2em !important;
 }
 .cardDescrip{
-  height: 20vh;
+  height: 25vh;
   padding: 4vh 2vw 0 2vw;
+  line-height: 1.5;
   font-size: 1.2em !important;
 }
 @media (max-width: 375px) {
