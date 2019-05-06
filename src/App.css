@@ -15,7 +15,10 @@ nav{
   top: 15vh;
   z-index: 10;
 }
-
+.email{
+  letter-spacing: 2px;
+  font-size: 1.5em;
+}
 .nav-item{
 letter-spacing: 3px;
 font-family: "Courier New", Courier, monospace;
@@ -49,6 +52,7 @@ a{
   font-family: "Courier New", Courier, monospace;
   color:white;
   line-height: 2;
+  margin-bottom: 6vh;
 }
 #works{
   border:solid red;
@@ -67,6 +71,7 @@ a{
   line-height: 1.5;
   font-size: 1.2em !important;
 }
+
 @media (max-width: 375px) {
   main{
     margin-top: 34vh;

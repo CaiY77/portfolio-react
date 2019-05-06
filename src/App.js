@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Icon,Card,List} from 'semantic-ui-react'
+import {Icon,Card,List,Button} from 'semantic-ui-react'
 
 class App extends Component {
 
@@ -44,7 +44,7 @@ class App extends Component {
           GitHub
         </a>
       </div>
-      <main className="testing">
+      <main>
         <section id="about">
           <h1 id="about-n">Cai H. Yang</h1>
           <h2 id="about-h"> Software Engineer | Full-Stack Developer </h2>
@@ -53,10 +53,15 @@ class App extends Component {
             <br/> as well as using logical deduction with algorithmic
             <br/>approaches to solve problems/puzzles and technical issues.
           </p>
-        </section>
+          <a href="mailTo:caih.yang@gmail.com" target="_blank"><Button inverted color='blue'>
+            <p className="email">Contact Me!</p>
+          </Button></a>
+          </section>
+
         <section id="experience">
           <p></p>
         </section>
+
         <section id="works">
           <Card.Group itemsPerRow={3}>
 
