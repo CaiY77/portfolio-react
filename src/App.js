@@ -66,7 +66,7 @@ class App extends Component {
           <h1>My Works</h1>
           <Card.Group stackable itemsPerRow={3}>
 
-            <Modal trigger={
+            
               <Card>
                 <Card.Content>
                   <div className="gitLinks">
@@ -91,9 +91,9 @@ class App extends Component {
                   </List>
                 </Card.Content>
               </Card>
-            }></Modal>
 
-            <Modal trigger={
+
+
               <Card>
                 <Card.Content>
                   <div className="gitLinks">
@@ -115,9 +115,9 @@ class App extends Component {
                   </List>
                 </Card.Content>
               </Card>
-            }></Modal>
 
-            <Modal trigger={
+
+
               <Card>
                 <Card.Content>
                   <div className="gitLinks">
@@ -137,9 +137,9 @@ class App extends Component {
                   </List>
                 </Card.Content>
               </Card>
-            }></Modal>
 
-            <Modal trigger={
+
+
               <Card>
                 <Card.Content>
                   <div className="gitLinks">
@@ -158,7 +158,7 @@ class App extends Component {
                   </List>
                 </Card.Content>
               </Card>
-            }></Modal>
+
 
             <Card></Card>
             <Card></Card>
