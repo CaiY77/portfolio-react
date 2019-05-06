@@ -126,7 +126,26 @@ class App extends Component {
                 </List>
               </Card.Content>
             </Card>
-            <Card></Card>
+
+            <Card href="#">
+              <Card.Content>
+                <div className="gitLinks">
+                  <a href="https://github.com/CaiY77/Calculator-Proj2" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
+                  <a href="https://web-calculator.netlify.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
+                </div>
+                <Card.Header className="cardTitles">Web-Calculator</Card.Header>
+                <Card.Description className="cardDescrip">
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <List horizontal>
+                  <List.Item>Javascript/JS6</List.Item>
+                  <List.Item>HTML</List.Item>
+                  <List.Item>CSS</List.Item>
+                </List>
+              </Card.Content>
+            </Card>
+
             <Card></Card>
             <Card></Card>
           </Card.Group>
