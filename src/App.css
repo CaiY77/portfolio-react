@@ -39,7 +39,7 @@ a {
 
 #about {
   margin: 10.5vh 0 0 5vw;
-  padding: 20vh 0 20vh 5vw;
+  padding: 20vh 5vw 20vh 5vw;
   color: white;
 }
 
@@ -64,7 +64,6 @@ a {
 }
 
 #works {
-  border: solid red;
   padding: 5vh 6vw 5vh 6vw;
 }
 
@@ -91,5 +90,14 @@ a {
 
   .vert {
     top: 40vh;
+  }
+  #about-n{
+    font-size: 2.7em !important;
+  }
+  #about-h{
+    font-size: 1.9em !important;
+  }
+  #about-p{
+    font-size: 1em !important;
   }
 }

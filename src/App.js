@@ -43,6 +43,7 @@ class App extends Component {
           GitHub
         </a>
       </div>
+
       <main>
         <section id="about">
           <h1 id="about-n">Cai H. Yang</h1>
@@ -62,6 +63,7 @@ class App extends Component {
         </section>
 
         <section id="works">
+          <h1>My Works</h1>
           <Card.Group stackable itemsPerRow={3}>
 
             <Modal trigger={
@@ -162,9 +164,8 @@ class App extends Component {
             <Card></Card>
           </Card.Group>
         </section>
-        <section id="contact"></section>
       </main>
-
+      <section id="contact"></section>
     </div>);
   }
 }
