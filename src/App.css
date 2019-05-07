@@ -1,6 +1,5 @@
 .main-contain {
-  background: linear-gradient(135deg, #000428,#054985);
-  background-attachment: fixed;
+  background: linear-gradient(45deg, #000428,#054985);
 }
 
 nav {
@@ -64,7 +63,7 @@ a {
 }
 
 #works {
-  padding: 5vh 6vw 5vh 6vw;
+  padding: 10vh 6vw 5vh 6vw;
 }
 
 .gitLinks {
@@ -81,6 +80,16 @@ a {
   padding: 4vh 2vw 0 2vw;
   line-height: 1.5;
   font-size: 1.2em !important;
+}
+.headers{
+  font-size: 3em;
+  color:white;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding: 5vh 0 5vh 0;
+}
+.red{
+  color:crimson;
 }
 
 @media (max-width: 375px) {

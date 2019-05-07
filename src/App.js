@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Icon,Card,List,Button,Modal} from 'semantic-ui-react'
+import {Icon,Card,List,Button} from 'semantic-ui-react'
 class App extends Component {
 
   componentDidMount() {
@@ -53,7 +53,7 @@ class App extends Component {
             <br/> as well as using logical deduction with algorithmic
             <br/>approaches to solve problems/puzzles and technical issues.
           </p>
-          <a href="mailTo:caih.yang@gmail.com" target="_blank"><Button inverted color='blue'>
+          <a href="mailTo:caih.yang@gmail.com" target="_blank" rel="noopener noreferrer"><Button inverted color='blue'>
             <p className="email">Contact Me!</p>
           </Button></a>
         </section>
@@ -63,16 +63,16 @@ class App extends Component {
         </section>
 
         <section id="works">
-          
-          <h1>My Works</h1>
+
+          <h1 className ="headers">{ "<" } <span className="red">My Works</span> {"/>"}</h1>
 
           <Card.Group stackable itemsPerRow={3}>
 
             <Card>
               <Card.Content>
                 <div className="gitLinks">
-                  <a href="https://github.com/CaiY77/ani-manage" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
-                  <a href="https://ani-manage.herokuapp.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
+                  <a href="https://github.com/CaiY77/ani-manage" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
+                  <a href="https://ani-manage.herokuapp.com/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
                 </div>
                 <Card.Header className="cardTitles">Ani-Manage</Card.Header>
                 <Card.Description className="cardDescrip">
@@ -96,8 +96,8 @@ class App extends Component {
             <Card>
               <Card.Content>
                 <div className="gitLinks">
-                  <a href="https://github.com/CaiY77/My-Arcade" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
-                  <a href="https://cai-arcade.netlify.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
+                  <a href="https://github.com/CaiY77/My-Arcade" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
+                  <a href="https://cai-arcade.netlify.com/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
                 </div>
                 <Card.Header className="cardTitles">Cai's Arcade</Card.Header>
                 <Card.Description className="cardDescrip">
@@ -118,8 +118,8 @@ class App extends Component {
             <Card>
               <Card.Content>
                 <div className="gitLinks">
-                  <a href="https://github.com/CaiY77/PS_Final" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
-                  <a href="https://my-league-picks.netlify.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
+                  <a href="https://github.com/CaiY77/PS_Final" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
+                  <a href="https://my-league-picks.netlify.com/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
                 </div>
                 <Card.Header className="cardTitles">League-Picks</Card.Header>
                 <Card.Description className="cardDescrip">
@@ -139,8 +139,8 @@ class App extends Component {
             <Card>
               <Card.Content>
                 <div className="gitLinks">
-                  <a href="https://github.com/CaiY77/Calculator-Proj2" target="_blank" ><Icon color="black" size='big' name="github"></Icon></a>
-                  <a href="https://web-calculator.netlify.com/" target="_blank" ><Icon color="black" size='big' name="globe"></Icon></a>
+                  <a href="https://github.com/CaiY77/Calculator-Proj2" target="_blank" rel="noopener noreferrer" ><Icon color="black" size='big' name="github"></Icon></a>
+                  <a href="https://web-calculator.netlify.com/" target="_blank" rel="noopener noreferrer" ><Icon color="black" size='big' name="globe"></Icon></a>
                 </div>
                 <Card.Header className="cardTitles">Web-Calculator</Card.Header>
                 <Card.Description className="cardDescrip">
@@ -156,12 +156,32 @@ class App extends Component {
               </Card.Content>
             </Card>
 
-            <Card></Card>
+            <Card>
+              <Card.Content>
+                <div className="gitLinks">
+                  <a href="https://github.com/CaiY77/tic-tac-toe" target="_blank" rel="noopener noreferrer" ><Icon color="black" size='big' name="github"></Icon></a>
+                  <a href="https://tic-tac-toe-cy.netlify.com/" target="_blank" rel="noopener noreferrer" ><Icon color="black" size='big' name="globe"></Icon></a>
+                </div>
+                <Card.Header className="cardTitles">Tic-Tac-Toe</Card.Header>
+                <Card.Description className="cardDescrip">
+                  Simple game of the classic Tic-Tac-Toe using Javascript while interacting with the DOM.
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <List horizontal>
+                  <List.Item>Javascript/JS6</List.Item>
+                  <List.Item>HTML</List.Item>
+                  <List.Item>CSS</List.Item>
+                </List>
+              </Card.Content>
+            </Card>
             <Card></Card>
           </Card.Group>
         </section>
       </main>
-      <section id="contact"></section>
+      <section id="contact">
+        <h1 className ="headers">{ "<" } <span className="red">Contact Me</span> {"/>"}</h1>
+      </section>
     </div>);
   }
 }
