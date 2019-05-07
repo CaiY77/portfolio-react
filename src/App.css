@@ -91,11 +91,16 @@ a {
 .red{
   color:crimson;
 }
+#contact{
+  text-align: center;
+  padding-bottom: 5vh;
+}
 #contactInfo{
   font-size: 1.7em;
   font-family: "Courier New", Courier, monospace;
   color: lightgrey;
   line-height: 2;
+  margin: 0 10vw 3vh 10vw;
 }
 
 @media (max-width: 375px) {
