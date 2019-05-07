@@ -30,7 +30,7 @@ class App extends Component {
       </nav>
 
       <div class="ui vertical labeled icon menu vert">
-        <a href="https://docdro.id/3YVUHpu" rel="noopener noreferrer" target="_blank" class="item">
+        <a href="https://www.docdroid.net/SvrjvLo/cai-yang.pdf" rel="noopener noreferrer" target="_blank" class="item">
           <Icon size="small" name="file alternate"/>
           Resume
         </a>
@@ -54,7 +54,7 @@ class App extends Component {
             <br/>approaches to solve problems/puzzles and technical issues.
           </p>
           <a href="mailTo:caih.yang@gmail.com" target="_blank" rel="noopener noreferrer"><Button inverted color='blue'>
-            <p className="email">Contact Me!</p>
+            <p className="email">Say Hello!</p>
           </Button></a>
         </section>
 
@@ -181,6 +181,12 @@ class App extends Component {
       </main>
       <section id="contact">
         <h1 className ="headers">{ "<" } <span className="red">Contact Me</span> {"/>"}</h1>
+        <p id="contactInfo">Enjoy my works? Fill free to contact me.
+          I am open to all kinds of free-lancing work.
+        Currently looking for  full-time positions as a Software Engineer and Full-Stack Web Developement. </p>
+        <a href="mailTo:caih.yang@gmail.com" target="_blank" rel="noopener noreferrer"><Button inverted color='blue'>
+          <p className="email">Contact Me!</p>
+        </Button></a>
       </section>
     </div>);
   }

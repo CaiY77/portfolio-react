@@ -91,6 +91,12 @@ a {
 .red{
   color:crimson;
 }
+#contactInfo{
+  font-size: 1.7em;
+  font-family: "Courier New", Courier, monospace;
+  color: lightgrey;
+  line-height: 2;
+}
 
 @media (max-width: 375px) {
   main {
