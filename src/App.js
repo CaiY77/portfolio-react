@@ -59,6 +59,7 @@ class App extends Component {
         </section>
 
         <section id="experience">
+          <h1>Some Langauages and Framworks </h1>
           <p></p>
         </section>
 
@@ -175,7 +176,7 @@ class App extends Component {
                 </List>
               </Card.Content>
             </Card>
-            
+
           </Card.Group>
         </section>
 
