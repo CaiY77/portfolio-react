@@ -46,21 +46,28 @@ class App extends Component {
 
       <main>
         <section id="about">
-          <h1 id="about-n">Cai H. Yang</h1>
-          <h2 id="about-h"> Software Engineer | Full-Stack Developer </h2>
-          <br/>
-          <p id="about-p"> I enjoy building applications from the ground-up
-            <br/> as well as using logical deduction with algorithmic
-            <br/>approaches to solve problems/puzzles and technical issues.
-          </p>
-          <a href="mailTo:caih.yang@gmail.com" target="_blank" rel="noopener noreferrer"><Button inverted color='blue'>
-            <p className="email">Say Hello!</p>
-          </Button></a>
+          <div className= "shade">
+            <h1 id="about-n">Cai H. Yang</h1>
+            <h2 id="about-h"> Software Engineer | Full-Stack Developer </h2>
+            <br/>
+            <p id="about-p"> I enjoy building applications from the ground-up
+              <br/> as well as using logical deduction with algorithmic
+              <br/>approaches to solve problems/puzzles and technical issues.
+            </p>
+            <a href="mailTo:caih.yang@gmail.com" target="_blank" rel="noopener noreferrer"><Button inverted color='blue'>
+              <p className="email">Say Hello!</p>
+            </Button></a>
+          </div>
         </section>
 
         <section id="experience">
-          <h1>Some Langauages and Framworks </h1>
-          <p></p>
+          <h1>Langauages and Frameworks </h1>
+          <List>
+            <List.Item><Icon name="right triangle" />Javascript / JS6</List.Item>
+            <List.Item><Icon name="right triangle" />HTML</List.Item>
+            <List.Item><Icon name="right triangle" /> Node.js</List.Item>
+            <List.Item><Icon name="right triangle" /> Express.js</List.Item>
+          </List>
         </section>
 
         <section id="works">
