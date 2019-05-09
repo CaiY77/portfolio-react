@@ -38,14 +38,16 @@ a {
   font-family: "Courier New", Courier, monospace;
 }
 
+
 #about {
   margin: 10.5vh 0 0 0vw;
   color: white;
 }
+
 .shade{
   height: 100%;
   width: 100%;
-  padding: 20vh 5vw 20vh 10vw;
+  padding: 25vh 5vw 25vh 10vw;
   background: linear-gradient(45deg, rgba(0, 0, 0, 0.6),rgba(9, 13, 23, .7));
 }
 
@@ -65,10 +67,30 @@ a {
   line-height: 2;
   margin-bottom: 6vh;
 }
+
 #experience{
-  background: white;
-  padding: 20vh 10vw 20vh 10vw;
+  background:rgb(240, 240, 240);
+  background-size: cover;
+  text-align: center;
+  padding: 17vh 10vw 17vh 10vw;
 }
+
+.experience-h{
+  font-size: 3em;
+  border:solid;
+  margin-bottom: 6vh;
+}
+.my-list{
+  display:flex;
+}
+.l-list,.r-list{
+  flex:1;
+  text-align: left;
+  border:solid;
+  margin: 0 !important;
+  font-size: 1.5em !important;
+}
+
 
 #works {
   padding: 10vh 7vw 5vh 7vw;
@@ -96,6 +118,13 @@ a {
   font-family: "Courier New", Courier, monospace;
   text-align: center;
   padding: 5vh 0 5vh 0;
+}
+.headers-b{
+  font-size: 3em;
+  color:black;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding: 0 0 5vh 0;
 }
 .red{
   color:crimson;

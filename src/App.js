@@ -61,13 +61,21 @@ class App extends Component {
         </section>
 
         <section id="experience">
-          <h1>Langauages and Frameworks </h1>
-          <List>
-            <List.Item><Icon name="right triangle" />Javascript / JS6</List.Item>
-            <List.Item><Icon name="right triangle" />HTML</List.Item>
-            <List.Item><Icon name="right triangle" /> Node.js</List.Item>
-            <List.Item><Icon name="right triangle" /> Express.js</List.Item>
-          </List>
+
+          <h1 className ="headers-b">{ "<" } <span className="red">Languages</span> {"/>"} && { "<" } <span className="red">Framework</span> {"/>"}</h1>          <div className="my-list">
+            <List animated className="l-list">
+              <List.Item><Icon name="right triangle" />Javascript / JS6</List.Item>
+              <List.Item><Icon name="right triangle" />HTML</List.Item>
+              <List.Item><Icon name="right triangle" /> Node.js</List.Item>
+              <List.Item><Icon name="right triangle" /> Express.js</List.Item>
+              <List.Item><Icon name="right triangle" /> Node.js</List.Item>
+            </List>
+
+            <List animated className="r-list">
+              <List.Item><Icon name="right triangle" />Semantic-Ui</List.Item>
+            </List>
+          </div>
+
         </section>
 
         <section id="works">
