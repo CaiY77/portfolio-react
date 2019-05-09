@@ -72,7 +72,7 @@ a {
   background:rgb(240, 240, 240);
   background-size: cover;
   text-align: center;
-  padding: 17vh 10vw 17vh 10vw;
+  padding: 15vh 10vw 17vh 10vw;
 }
 
 .experience-h{
@@ -83,18 +83,28 @@ a {
 .my-list{
   display:flex;
 }
-.l-list,.r-list{
+.l-list{
   flex:1;
-  text-align: left;
-  border:solid;
+  text-align:left;
+  padding-left: 5vw !important;
   margin: 0 !important;
-  font-size: 1.5em !important;
+  font-size: 1.3em !important;
+}
+.list-style{
+  margin-top: 1vh;
 }
 
 
 #works {
-  padding: 10vh 7vw 5vh 7vw;
-  margin-bottom: 20vh;
+  background: url('images/work-back.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.shade-w{
+  background:linear-gradient(45deg, rgba(35, 37, 38, 0.5), rgba(65, 67, 69, 0.5)) ;
+  padding: 6vh 7vw 10vh 7vw;
+  height: 100%;
+  width: 100%;
 }
 
 .gitLinks {
@@ -112,6 +122,11 @@ a {
   line-height: 1.5;
   font-size: 1.2em !important;
 }
+.all-my-cards{
+  opacity: .9;
+  margin-bottom: 10vh !important;
+
+}
 .headers{
   font-size: 3em;
   color:white;
@@ -121,7 +136,7 @@ a {
 }
 .headers-b{
   font-size: 3em;
-  color:black;
+  color: darkcyan;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
   padding: 0 0 5vh 0;
@@ -131,7 +146,7 @@ a {
 }
 #contact{
   text-align: center;
-  padding-bottom: 5vh;
+  padding: 7vh 0 20vh 0;
 }
 #contactInfo{
   font-size: 1.7em;
