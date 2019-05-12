@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Icon,Card,List,Button,Reveal} from 'semantic-ui-react'
+import aniManage from './images/ani-manage';
+import arcade from './images/arcade.png';
+import league from './images/league.png';
+import {Icon,Card,List,Button,Reveal,Modal} from 'semantic-ui-react'
 class App extends Component {
 
   componentDidMount() {
@@ -98,14 +101,25 @@ class App extends Component {
                 <Card.Content>
                   <div className="gitLinks">
                     <a href="https://github.com/CaiY77/ani-manage" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
-                    <a href="https://ani-manage.herokuapp.com/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
+                    <a href="http://ani-manage.surge.sh/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
                   </div>
                   <Card.Header className="cardTitles">Ani-Manage</Card.Header>
-                  <Card.Description className="cardDescrip">
-                    An animation search engine built on React.js that uses data pulled from Jikan's API.
-                    Managing states in a way that allows users to bookmark favorites as well as the integration of local storage
-                    to store bookmark data. Deployed with Heroku.
-                  </Card.Description>
+
+                  <Reveal animated='move'>
+                    <Reveal.Content visible>
+                      <Card.Description className="cardDescrip">
+                        An animation search engine built on React.js that uses data pulled from Jikan's API.
+                        Managing states in a way that allows users to bookmark favorites as well as the integration of local storage
+                        to store bookmark data. Deployed with Heroku.
+                      </Card.Description>
+                    </Reveal.Content>
+                    <Reveal.Content hidden>
+                      <Modal trigger={<img className="work-pics" src={aniManage}></img>}>
+                        <Modal.Content><img className="work-pics" src={aniManage}></img></Modal.Content>
+                      </Modal>
+                    </Reveal.Content>
+                  </Reveal>
+
                 </Card.Content>
                 <Card.Content extra>
                   <List horizontal>
@@ -126,10 +140,21 @@ class App extends Component {
                     <a href="https://cai-arcade.netlify.com/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
                   </div>
                   <Card.Header className="cardTitles">Cai's Arcade</Card.Header>
-                  <Card.Description className="cardDescrip">
-                    A fully functional web based arcade filled with games based of remakes of the classics or creation on the spot.
-                    Uses HTML/CSS and a lot OOP Javascript.
-                  </Card.Description>
+
+                  <Reveal animated='move'>
+                    <Reveal.Content visible>
+                      <Card.Description className="cardDescrip">
+                        A fully functional web based arcade filled with games based of remakes of the classics or creation on the spot.
+                        Uses HTML/CSS and a lot OOP Javascript.
+                      </Card.Description>
+                    </Reveal.Content>
+                    <Reveal.Content hidden>
+                      <Modal trigger={<img className="work-pics" src={arcade}></img>}>
+                        <Modal.Content><img className="work-pics" src={arcade}></img></Modal.Content>
+                      </Modal>
+                    </Reveal.Content>
+                  </Reveal>
+
                 </Card.Content>
                 <Card.Content extra>
                   <List horizontal>
@@ -148,9 +173,20 @@ class App extends Component {
                     <a href="https://my-league-picks.netlify.com/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
                   </div>
                   <Card.Header className="cardTitles">League-Picks</Card.Header>
-                  <Card.Description className="cardDescrip">
-                    Blog like webpage to show mastery in HTML, CSS and Javascript. Implemented best practices in the Web Developement field.
-                  </Card.Description>
+
+                  <Reveal animated='move'>
+                    <Reveal.Content visible>
+                      <Card.Description className="cardDescrip">
+                        Blog like webpage to show mastery in HTML, CSS and Javascript. Implemented best practices in the Web Developement field.
+                      </Card.Description>
+                    </Reveal.Content>
+                    <Reveal.Content hidden>
+                      <Modal trigger={<img className="work-pics" src={league}></img>}>
+                        <Modal.Content><img className="work-pics" src={league}></img></Modal.Content>
+                      </Modal>
+                    </Reveal.Content>
+                  </Reveal>
+
                 </Card.Content>
                 <Card.Content extra>
                   <List horizontal>

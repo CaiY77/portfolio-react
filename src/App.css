@@ -109,6 +109,11 @@ a {
   background-size: cover;
   background-attachment: fixed;
 }
+.work-pics{
+  height:100%;
+  width: 100%;
+  margin:0 !important;
+}
 .shade-w{
   background:linear-gradient(45deg, rgba(35, 37, 38, 0.4), rgba(65, 67, 69, 0.4)) ;
   padding: 20vh 7vw 20vh 7vw;
@@ -130,6 +135,7 @@ a {
   padding: 4vh 2vw 0 2vw;
   line-height: 1.5;
   font-size: 1.2em !important;
+  background: white;
 }
 .all-my-cards{
 
@@ -163,11 +169,12 @@ a {
   height: 100%;
   width: 100%;
   padding: 20vh 0 20vh 0;
-  background:linear-gradient(45deg, rgba(35, 37, 38, 0.2), rgba(65, 67, 69, 0.2)) ;
+  background:linear-gradient(45deg, rgba(35, 37, 38, 0.3), rgba(65, 67, 69, 0.3)) ;
 }
 #contactInfo{
-  font-size: 1.7em;
+  font-size: 2em;
   font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
   color: white;
   line-height: 2;
   margin: 0 10vw 5vh 10vw;
