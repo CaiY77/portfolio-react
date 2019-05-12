@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .main-contain {
   background: url('images/back-w.jpg');
   background-size: cover;
@@ -86,6 +89,8 @@ a {
 }
 .my-list{
   display:flex;
+  border: solid;
+  margin: 0 10vw 0 10vw;
 }
 .l-list{
   flex:1;
@@ -127,6 +132,7 @@ a {
   font-size: 1.2em !important;
 }
 .all-my-cards{
+
   margin-bottom: 10vh !important;
 
 }
@@ -164,7 +170,7 @@ a {
   font-family: "Courier New", Courier, monospace;
   color: white;
   line-height: 2;
-  margin: 0 10vw 3vh 10vw;
+  margin: 0 10vw 5vh 10vw;
 }
 
 @media (max-width: 375px) {

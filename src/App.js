@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Icon,Card,List,Button} from 'semantic-ui-react'
+import {Icon,Card,List,Button,Reveal} from 'semantic-ui-react'
 class App extends Component {
 
   componentDidMount() {
@@ -79,10 +79,10 @@ class App extends Component {
             </List>
 
             <List animated className="l-list">
-              <List.Item className="list-style"><Icon name="right triangle" />Node.js</List.Item>
+              <List.Item className="list-style"><Icon name="right triangle" />Semantic-Ui</List.Item>
+              <List.Item className="list-style"><Icon name="right triangle" />Sequelize</List.Item>
               <List.Item className="list-style"><Icon name="right triangle" />Express.js</List.Item>
               <List.Item className="list-style"><Icon name="right triangle" />Node.js</List.Item>
-              <List.Item className="list-style"><Icon name="right triangle" />Semantic-Ui</List.Item>
             </List>
           </div>
 
