@@ -10,6 +10,10 @@ nav {
   top: 0;
   left: 0;
   z-index: 10;
+  height: 10vh;
+}
+.custom{
+  border-radius: 0 !important;
 }
 
 .vert {
@@ -40,7 +44,7 @@ a {
 
 
 #about {
-  margin: 10.5vh 0 0 0vw;
+  margin: 10vh 0 0 0vw;
   color: white;
 }
 
@@ -101,8 +105,8 @@ a {
   background-attachment: fixed;
 }
 .shade-w{
-  background:linear-gradient(45deg, rgba(35, 37, 38, 0.5), rgba(65, 67, 69, 0.5)) ;
-  padding: 6vh 7vw 10vh 7vw;
+  background:linear-gradient(45deg, rgba(35, 37, 38, 0.4), rgba(65, 67, 69, 0.4)) ;
+  padding: 20vh 7vw 20vh 7vw;
   height: 100%;
   width: 100%;
 }
@@ -123,7 +127,6 @@ a {
   font-size: 1.2em !important;
 }
 .all-my-cards{
-  opacity: .9;
   margin-bottom: 10vh !important;
 
 }
@@ -132,7 +135,7 @@ a {
   color:white;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
-  padding: 5vh 0 5vh 0;
+  padding: 0vh 0 12vh 0;
 }
 .headers-b{
   font-size: 3em;
@@ -146,12 +149,20 @@ a {
 }
 #contact{
   text-align: center;
-  padding: 7vh 0 20vh 0;
+  background: url('images/back-d.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.shade-c{
+  height: 100%;
+  width: 100%;
+  padding: 20vh 0 20vh 0;
+  background:linear-gradient(45deg, rgba(35, 37, 38, 0.2), rgba(65, 67, 69, 0.2)) ;
 }
 #contactInfo{
   font-size: 1.7em;
   font-family: "Courier New", Courier, monospace;
-  color: lightgrey;
+  color: white;
   line-height: 2;
   margin: 0 10vw 3vh 10vw;
 }
