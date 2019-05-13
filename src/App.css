@@ -138,9 +138,8 @@ a {
   background: white;
 }
 .all-my-cards{
-
+  opacity: 0.9;
   margin-bottom: 10vh !important;
-
 }
 .headers{
   font-size: 3em;
@@ -184,7 +183,6 @@ a {
   main {
     margin-top: 34vh;
   }
-
   .vert {
     top: 40vh;
   }
