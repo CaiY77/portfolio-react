@@ -110,7 +110,8 @@ class App extends Component {
                   </div>
                   <Card.Header className="cardTitles">Track-Fitness</Card.Header>
 
-                  <ModalCard descrip="extra info" img={track}/>
+                  <ModalCard descrip="Track-Fit is a sull-stack React application that runs Sequelize, PostgreSQL and Express based back end. It contains
+                    authentication which allows the creation of unique users. The app provides a quick and easy way to track & log food/exercise entries." img={track}/>
 
                 </Card.Content>
                 <Card.Content extra>
@@ -120,7 +121,6 @@ class App extends Component {
                     <List.Item>PostgreSQL</List.Item>
                     <List.Item>Heroku</List.Item>
                     <List.Item>React-Router</List.Item>
-                    <List.Item>Semantic-Ui</List.Item>
                   </List>
                 </Card.Content>
               </Card>
