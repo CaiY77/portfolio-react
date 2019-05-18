@@ -5,6 +5,7 @@ import arcade from './images/arcade.png';
 import league from './images/league.png';
 import calc from './images/calc.png';
 import tic from './images/tic.png';
+import track from './images/track.png';
 import {Icon,Card,List,Button,Reveal,Modal} from 'semantic-ui-react'
 import ModalCard from './components/ModalCard'
 
@@ -37,7 +38,7 @@ class App extends Component {
       </nav>
 
       <div class="ui vertical labeled icon menu vert">
-        <a href="https://www.docdroid.net/SvrjvLo/cai-yang.pdf" rel="noopener noreferrer" target="_blank" class="item">
+        <a href="https://docdro.id/3TkMsnb" rel="noopener noreferrer" target="_blank" class="item">
           <Icon size="small" name="file alternate"/>
           Resume
         </a>
@@ -100,6 +101,29 @@ class App extends Component {
             <h1 className ="headers">{ "<" } <span className="red">My Works</span> {"/>"}</h1>
 
             <Card.Group stackable itemsPerRow={3}>
+
+              <Card className="all-my-cards">
+                <Card.Content>
+                  <div className="gitLinks">
+                    <a href="https://github.com/CaiY77/track-fit" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
+                    <a href="http://track-fitness.surge.sh/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
+                  </div>
+                  <Card.Header className="cardTitles">Track-Fitness</Card.Header>
+
+                  <ModalCard descrip="extra info" img={track}/>
+
+                </Card.Content>
+                <Card.Content extra>
+                  <List horizontal>
+                    <List.Item>React</List.Item>
+                    <List.Item>Sequelize</List.Item>
+                    <List.Item>PostgreSQL</List.Item>
+                    <List.Item>Heroku</List.Item>
+                    <List.Item>React-Router</List.Item>
+                    <List.Item>Semantic-Ui</List.Item>
+                  </List>
+                </Card.Content>
+              </Card>
 
               <Card className="all-my-cards">
                 <Card.Content>

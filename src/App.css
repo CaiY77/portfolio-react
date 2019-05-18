@@ -89,7 +89,6 @@ a {
 }
 .my-list{
   display:flex;
-  border: solid;
   margin: 0 10vw 0 10vw;
 }
 .l-list{
