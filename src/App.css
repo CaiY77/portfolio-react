@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 .main-contain {
-  background: url('images/back-w.jpg');
+  background: url('images/back-w2.jpg');
   background-size: cover;
   background-attachment:fixed;
 }
@@ -48,24 +48,25 @@ a {
 
 #about {
   margin: 10vh 0 0 0vw;
-  color: white;
+  color: whitesmoke;
 }
 
 .shade{
   height: 100%;
   width: 100%;
   padding: 25vh 5vw 25vh 10vw;
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.6),rgba(9, 13, 23, .7));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2),rgba(9, 13, 23, 0.2));
 }
 
 #about-n {
-  font-size: 4em;
+  font-size: 4em ;
   font-family: "Courier New", Courier, monospace;
 }
 
 #about-h {
   font-size: 2.5em;
   font-family: "Courier New", Courier, monospace;
+  color: white;
 }
 
 #about-p {
@@ -76,15 +77,12 @@ a {
 }
 
 #experience{
-  background:rgb(240, 240, 240);
-  background-size: cover;
-  text-align: center;
+  background:rgb(255, 255, 255);
   padding: 15vh 10vw 17vh 10vw;
 }
 
 .experience-h{
   font-size: 3em;
-  border:solid;
   margin-bottom: 6vh;
 }
 .my-list{
@@ -114,7 +112,7 @@ a {
   margin:0 !important;
 }
 .shade-w{
-  background:linear-gradient(45deg, rgba(35, 37, 38, 0.4), rgba(65, 67, 69, 0.4)) ;
+  background:linear-gradient(45deg, rgba(35, 37, 38, 0.2), rgba(65, 67, 69, 0.2)) ;
   padding: 20vh 7vw 20vh 7vw;
   height: 100%;
   width: 100%;
@@ -162,18 +160,19 @@ a {
   background: url('images/back-d.jpg');
   background-size: cover;
   background-attachment: fixed;
+  background-position: bottom;
 }
 .shade-c{
   height: 100%;
   width: 100%;
   padding: 20vh 0 20vh 0;
-  background:linear-gradient(45deg, rgba(35, 37, 38, 0.3), rgba(65, 67, 69, 0.3)) ;
+  background:linear-gradient(45deg, rgba(35, 37, 38, 0.5), rgba(65, 67, 69, 0.5)) ;
 }
 #contactInfo{
   font-size: 2em;
   font-family: "Courier New", Courier, monospace;
   font-weight: 500;
-  color: white;
+  color: whitesmoke;
   line-height: 2;
   margin: 0 10vw 5vh 10vw;
 }

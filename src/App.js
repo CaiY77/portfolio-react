@@ -70,29 +70,7 @@ class App extends Component {
 
         <section id="experience">
 
-          <h1 className ="headers-b">{ "<" } <span className="red">Languages</span> {"/>"} && { "<" } <span className="red">Frameworks</span> {"/>"}</h1>
-          <div className="my-list">
-            <List animated className="l-list">
-              <List.Item className="list-style"><Icon name="right triangle" />Javascript / JS6</List.Item>
-              <List.Item className="list-style"><Icon name="right triangle" />PostgreSQL</List.Item>
-              <List.Item className="list-style"><Icon name="right triangle" />C++</List.Item>
-              <List.Item className="list-style"><Icon name="right triangle" />Java</List.Item>
-              <List.Item className="list-style"><Icon name="right triangle" />Python</List.Item>
-            </List>
-            <List animated className="l-list">
-              <List.Item className="list-style"><Icon name="right triangle" />Axios</List.Item>
-              <List.Item className="list-style"><Icon name="right triangle" />Ruby on Rails</List.Item>
-              <List.Item className="list-style"><Icon name="right triangle" />Git / Github</List.Item>
-              <List.Item className="list-style"><Icon name="right triangle" />HTML / CSS</List.Item>
-            </List>
 
-            <List animated className="l-list">
-              <List.Item className="list-style"><Icon name="right triangle" />Semantic-Ui</List.Item>
-              <List.Item className="list-style"><Icon name="right triangle" />Sequelize</List.Item>
-              <List.Item className="list-style"><Icon name="right triangle" />Express.js</List.Item>
-              <List.Item className="list-style"><Icon name="right triangle" />Node.js</List.Item>
-            </List>
-          </div>
 
         </section>
 
@@ -102,7 +80,7 @@ class App extends Component {
 
             <Card.Group stackable itemsPerRow={3}>
 
-              <Card className="all-my-cards">
+              <Card color="green" className="all-my-cards">
                 <Card.Content>
                   <div className="gitLinks">
                     <a href="https://github.com/CaiY77/track-fit" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
@@ -112,7 +90,7 @@ class App extends Component {
 
                   <ModalCard descrip="Track-Fit is a full-stack React application that runs Sequelize, PostgreSQL and Express based back end. It contains
                     authentication which allows the creation of unique users. The app provides a quick and easy way to track & log food/exercise entries." img={track}/>
-                  
+
                 </Card.Content>
                 <Card.Content extra>
                   <List horizontal>
