@@ -3,6 +3,7 @@ import './App.css';
 import Works from './components/Works'
 import About from './components/About'
 import Experience from './components/Experience'
+import Contact from './components/Contact'
 import {Icon, Button} from 'semantic-ui-react'
 
 class App extends Component {
@@ -47,25 +48,16 @@ class App extends Component {
           GitHub
         </a>
       </div>
-      
+
       <main>
+
         <About />
         <Experience />
         <Works />
-
-        <section id="contact">
-          <div className='shade-c'>
-            <h1 className ="headers">{ "<" } <span className="red">Contact Me</span> {"/>"}</h1>
-            <p id="contactInfo">Enjoy my works? Fill free to contact me.
-              I am open to all kinds of free-lancing work.
-            Currently looking for  full-time positions as a Software Engineer or Full-Stack Web Developement. </p>
-            <a href="mailTo:caih.yang@gmail.com" target="_blank" rel="noopener noreferrer"><Button inverted color='blue'>
-              <p className="email">Contact Me!</p>
-            </Button></a>
-          </div>
-        </section>
+        <Contact />
 
       </main>
+
       <footer></footer>
     </div>);
   }
