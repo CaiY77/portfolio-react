@@ -77,7 +77,13 @@ a {
 }
 
 #experience{
-  background:rgb(255, 255, 255);
+  background: url('images/back-d.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+.exp-shade{
+  background:linear-gradient(45deg, rgba(35, 37, 38, 0.2), rgba(65, 67, 69, 0.2)) ;
   padding: 24vh 8vw 24vh 8vw;
   display: flex;
 }
@@ -175,19 +181,12 @@ a {
   text-align: center;
   padding: 0vh 0 12vh 0;
 }
-.headers-b{
-  font-size: 3em;
-  color: darkcyan;
-  font-family: "Courier New", Courier, monospace;
-  text-align: center;
-  padding: 0 0 5vh 0;
-}
 .red{
   color:crimson;
 }
 #contact{
   text-align: center;
-  background: url('images/back-d.jpg');
+  /* background: url('images/back-d.jpg'); */
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom;
@@ -196,7 +195,7 @@ a {
   height: 100%;
   width: 100%;
   padding: 20vh 0 20vh 0;
-  background:linear-gradient(45deg, rgba(35, 37, 38, 0.5), rgba(65, 67, 69, 0.5)) ;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2),rgba(9, 13, 23, 0.2));
 }
 #contactInfo{
   font-size: 2em;
