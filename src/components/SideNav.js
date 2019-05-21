@@ -6,7 +6,7 @@ class SideNav extends Component {
   render() {
     return (
       <div class="ui vertical labeled icon menu vert">
-        <a href="https://docdro.id/3TkMsnb" rel="noopener noreferrer" target="_blank" class="item">
+        <a href="https://www.docdroid.net/skCIa6m/cai-yang.pdf" rel="noopener noreferrer" target="_blank" class="item">
           <Icon size="small" name="file alternate"/>
           Resume
         </a>

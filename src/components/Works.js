@@ -42,7 +42,7 @@ class Works extends Component {
               </Card.Content>
             </Card>
 
-            <Card className="all-my-cards">
+            <Card color="green" className="all-my-cards">
               <Card.Content>
                 <div className="gitLinks">
                   <a href="https://github.com/CaiY77/ani-manage" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
@@ -67,7 +67,7 @@ class Works extends Component {
               </Card.Content>
             </Card>
 
-            <Card className="all-my-cards">
+            <Card color="green" className="all-my-cards">
               <Card.Content>
                 <div className="gitLinks">
                   <a href="https://github.com/CaiY77/My-Arcade" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
@@ -89,7 +89,7 @@ class Works extends Component {
               </Card.Content>
             </Card>
 
-            <Card className="all-my-cards">
+            <Card color="green" className="all-my-cards">
               <Card.Content>
                 <div className="gitLinks">
                   <a href="https://github.com/CaiY77/PS_Final" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
@@ -109,7 +109,7 @@ class Works extends Component {
               </Card.Content>
             </Card>
 
-            <Card className="all-my-cards">
+            <Card color="green" className="all-my-cards">
               <Card.Content>
                 <div className="gitLinks">
                   <a href="https://github.com/CaiY77/Calculator-Proj2" target="_blank" rel="noopener noreferrer" ><Icon color="black" size='big' name="github"></Icon></a>
@@ -129,7 +129,7 @@ class Works extends Component {
               </Card.Content>
             </Card>
 
-            <Card className="all-my-cards">
+            <Card color="green" className="all-my-cards">
               <Card.Content>
                 <div className="gitLinks">
                   <a href="https://github.com/CaiY77/tic-tac-toe" target="_blank" rel="noopener noreferrer" ><Icon color="black" size='big' name="github"></Icon></a>

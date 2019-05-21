@@ -78,21 +78,39 @@ a {
 
 #experience{
   background:rgb(255, 255, 255);
-  padding: 15vh 10vw 17vh 10vw;
+  padding: 15vh 8vw 15vh 8vw;
+  display: flex;
+  border: solid red ;
 }
-
-.experience-h{
-  font-size: 3em;
-  margin-bottom: 6vh;
+.experience-left{
+  border:solid red;
+  flex: 4;
+}
+.experience-right{
+  border:solid blue;
+  padding: 5vh;
+  flex: 7;
+}
+.my-list{
+  width: 100%;
+}
+.exper-style{
+  margin: auto;
+}
+.profile-pic{
+  background: url(./images/prof.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  height: 25vh;
+  width: 25vh;
 }
 .my-list{
   display:flex;
-  margin: 0 10vw 0 10vw;
 }
 .l-list{
   flex:1;
   text-align:left;
-  padding-left: 5vw !important;
+  padding-left: 8vw !important;
   margin: 0 !important;
   font-size: 1.3em !important;
 }
@@ -176,6 +194,7 @@ a {
   line-height: 2;
   margin: 0 10vw 5vh 10vw;
 }
+
 
 @media (max-width: 375px) {
   main {
