@@ -5,7 +5,7 @@ import About from './components/About'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
 import NavBar from './components/NavBar'
-import {Icon, Button} from 'semantic-ui-react'
+import SideNav from './components/SideNav'
 
 class App extends Component {
 
@@ -16,28 +16,13 @@ class App extends Component {
   render() {
     return (<div className="main-contain">
       <NavBar />
-      <div class="ui vertical labeled icon menu vert">
-        <a href="https://docdro.id/3TkMsnb" rel="noopener noreferrer" target="_blank" class="item">
-          <Icon size="small" name="file alternate"/>
-          Resume
-        </a>
-        <a href="https://www.linkedin.com/in/caihyang/" rel="noopener noreferrer" target="_blank" class="item">
-          <Icon size="small" name="linkedin"/>
-          Linkedin
-        </a>
-        <a href="https://github.com/CaiY77" rel="noopener noreferrer" target="_blank" class="item">
-          <Icon size="small" name="github"/>
-          GitHub
-        </a>
-      </div>
+      <SideNav />
 
       <main>
-
         <About />
         <Experience />
         <Works />
         <Contact />
-
       </main>
 
       <footer></footer>
