@@ -5,6 +5,7 @@ import About from './components/About'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 import SideNav from './components/SideNav'
 
 class App extends Component {
@@ -25,7 +26,7 @@ class App extends Component {
         <Contact />
       </main>
 
-      <footer></footer>
+      <Footer />
     </div>);
   }
 }
