@@ -78,16 +78,13 @@ a {
 
 #experience{
   background:rgb(255, 255, 255);
-  padding: 15vh 8vw 15vh 8vw;
+  padding: 24vh 8vw 24vh 8vw;
   display: flex;
-  border: solid red ;
 }
 .experience-left{
-  border:solid red;
   flex: 4;
 }
 .experience-right{
-  border:solid blue;
   padding: 5vh;
   flex: 7;
 }
@@ -103,6 +100,21 @@ a {
   border-radius: 50%;
   height: 25vh;
   width: 25vh;
+  margin: auto;
+}
+.who{
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  border-bottom: solid 2px;
+}
+.soft-descrip, .quote{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.4em;
+}
+.quote{
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
 }
 .my-list{
   display:flex;

@@ -9,7 +9,11 @@ class Experience extends Component {
       <section id="experience">
         <div className="experience-left">
           <div className="profile-pic"></div>
-          <p className ="soft-descrip"></p>
+          <h1 className="who">Get To Know Me!</h1>
+          <p className ="soft-descrip">
+          I have a strong passion for computer science and a huge fan of mathematics. My hobbies include powerlifting and learning new things.</p>
+          <p className="quote">" Knowledge is Power. "</p>
+
         </div>
         <div className="experience-right">
           <h1 className ="headers-b exper-style">{ "<" } <span className="red">Languages && Frameworks</span> {"/>"}</h1>
