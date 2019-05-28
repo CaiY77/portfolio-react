@@ -242,8 +242,10 @@ a {
     background: white !important;
   }
   .main-contain,#works,#experience{
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: auto;
   }
   .exp-shade,.my-list{
     flex-direction: column;
