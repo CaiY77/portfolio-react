@@ -6,7 +6,7 @@ import calc from '../images/calc.png';
 import tic from '../images/tic.png';
 import track from '../images/track.png';
 import ModalCard from './ModalCard'
-import {Icon,Card,List,Button,Reveal,Modal} from 'semantic-ui-react'
+import {Icon,Card,List} from 'semantic-ui-react'
 
 
 class Works extends Component {

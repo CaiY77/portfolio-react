@@ -14,8 +14,8 @@ class ModalCard extends Component {
           </Card.Description>
         </Reveal.Content>
         <Reveal.Content hidden>
-          <Modal trigger={<img className="work-pics" src={img}></img>}>
-            <Modal.Content><img className="work-pics" src={img}></img></Modal.Content>
+          <Modal trigger={<img className="work-pics" alt="" src={img}></img>}>
+            <Modal.Content><img className="work-pics" alt="" src={img}></img></Modal.Content>
           </Modal>
         </Reveal.Content>
       </Reveal>

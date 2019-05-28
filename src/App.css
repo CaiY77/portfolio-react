@@ -223,4 +223,14 @@ a {
   #about-p{
     font-size: 1em !important;
   }
+  .nav{
+    position:relative;
+  }
+  .nav-item{
+    color: black !important;
+  }
+  .r-m{
+    margin-top:1.5vh !important;
+    background: white !important;
+  }
 }
