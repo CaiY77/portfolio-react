@@ -243,8 +243,9 @@ a {
     background: white !important;
   }
   .main-contain,#works,#experience{
-    background-size: cover;
-    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: auto;
   }
