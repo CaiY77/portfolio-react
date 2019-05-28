@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 .main-contain {
   background: url('images/back-w2.jpg');
@@ -214,18 +213,23 @@ a {
   .vert {
     top: 40vh;
   }
-  #about-n{
+  #about-n, .headers{
     font-size: 2.7em !important;
+  }
+  .exper-style{
+    font-size: 2em !important;
+    margin-top:4vh !important;
+    margin-bottom:4vh !important;
+    padding: 0;
+  }
+  .experience-right{
+    padding:0;
   }
   #about-h{
     font-size: 1.9em !important;
   }
-  #about-p{
+  #about-p, #contactInfo{
     font-size: 1em !important;
-  }
-  #contact{
-    border: solid red;
-    width: 100vw !important;
   }
   .nav{
     position:relative;
@@ -236,5 +240,12 @@ a {
   .r-m{
     margin-top:1.5vh !important;
     background: white !important;
+  }
+  .main-contain,#works,#experience{
+    background-size:cover;
+    background-position: center;
+  }
+  .exp-shade,.my-list{
+    flex-direction: column;
   }
 }
