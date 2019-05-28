@@ -231,8 +231,8 @@ a {
   #about-p, #contactInfo{
     font-size: 1em !important;
   }
-  .nav{
-    position:relative;
+  .nav,.vert{
+    position: static;
   }
   .nav-item{
     color: black !important;
@@ -242,7 +242,7 @@ a {
     background: white !important;
   }
   .main-contain,#works,#experience{
-    background-size:cover;
+    background-size: contain;
     background-position: center;
   }
   .exp-shade,.my-list{
