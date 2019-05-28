@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 .main-contain {
   background: url('images/back-w2.jpg');
@@ -186,7 +187,6 @@ a {
 }
 #contact{
   text-align: center;
-  /* background: url('images/back-d.jpg'); */
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom;
@@ -222,6 +222,10 @@ a {
   }
   #about-p{
     font-size: 1em !important;
+  }
+  #contact{
+    border: solid red;
+    width: 100vw !important;
   }
   .nav{
     position:relative;
