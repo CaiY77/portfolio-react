@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import {Button} from 'semantic-ui-react'
-import Reveal from 'react-reveal/Reveal';
+import Fade from 'react-reveal/Fade';
 
 class About extends Component {
 
@@ -9,7 +9,7 @@ class About extends Component {
     return (
       <section id="about">
         <div className= "shade">
-          <Reveal effect="fadeInUp">
+          <Fade bottom>
             <h1 id="about-n">Cai H. Yang</h1>
             <h2 id="about-h"> Software Engineer | Full-Stack Developer </h2>
             <br/>
@@ -20,7 +20,7 @@ class About extends Component {
             <a href="mailTo:caih.yang@gmail.com" target="_blank" rel="noopener noreferrer"><Button inverted color='blue'>
               <p className="email">Say Hello!</p>
             </Button></a>
-          </Reveal>
+          </Fade>
         </div>
       </section>
     );

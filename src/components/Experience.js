@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import {List,Icon} from 'semantic-ui-react'
+import Fade from 'react-reveal/Fade';
 
 class Experience extends Component {
 
@@ -20,24 +21,26 @@ class Experience extends Component {
             <h1 className ="headers exper-style">{ "<" } <span className="red">Languages && Frameworks</span> {"/>"}</h1>
             <div className="my-list">
 
-              <List animated className="l-list">
-                <List.Item className="list-style"><List.Icon name="js" /> Javascript / JS6</List.Item>
-                <List.Item className="list-style"><List.Icon name="react" /> React</List.Item>
-                <List.Item className="list-style"><List.Icon name="gem" /> Ruby / Rails</List.Item>
-                <List.Item className="list-style"><List.Icon name="html5" /> HTML / CSS</List.Item>
-                <List.Item className="list-style"><List.Icon name="node js" /> Node.js</List.Item>
-                <List.Item className="list-style"><List.Icon name="coffee" />  Java</List.Item>
-                <List.Item className="list-style"><List.Icon name="python" /> Python</List.Item>
-              </List>
-              <List animated className="l-list">
-                <List.Item className="list-style"><List.Icon name="github" /> Git / Github</List.Item>
-                <List.Item className="list-style"><Icon name="right triangle"/> C++</List.Item>
-                <List.Item className="list-style"><Icon name="right triangle" /> Express.js</List.Item>
-                <List.Item className="list-style"><Icon name="right triangle" /> Sequelize</List.Item>
-                <List.Item className="list-style"><Icon name="right triangle" /> Axios</List.Item>
-                <List.Item className="list-style"><Icon name="right triangle" /> PostgreSQL</List.Item>
-                <List.Item className="list-style"><Icon name="right triangle" /> Semantic-Ui</List.Item>
-              </List>
+              <ul className="l-list">
+                <li className="list-style"><List.Icon name="js" /> Javascript / JS6</li>
+                <li className="list-style"><List.Icon name="react" /> React</li>
+                <li className="list-style"><List.Icon name="gem" /> Ruby / Rails</li>
+                <li className="list-style"><List.Icon name="html5" /> HTML / CSS</li>
+                <li className="list-style"><List.Icon name="node js" /> Node.js</li>
+                <li className="list-style"><List.Icon name="coffee" />  Java</li>
+                <li className="list-style"><List.Icon name="python" /> Python</li>
+              </ul>
+
+              <ul className="l-list">
+                <li className="list-style"><List.Icon name="github" /> Git / Github</li>
+                <li className="list-style"><Icon name="right triangle"/> C++</li>
+                <li className="list-style"><Icon name="right triangle" /> Express.js</li>
+                <li className="list-style"><Icon name="right triangle" /> Sequelize</li>
+                <li className="list-style"><Icon name="right triangle" /> Axios</li>
+                <li className="list-style"><Icon name="right triangle" /> PostgreSQL</li>
+                <li className="list-style"><Icon name="right triangle" /> Semantic-Ui</li>
+              </ul>
+
             </div>
           </div>
         </div>
