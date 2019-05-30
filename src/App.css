@@ -7,16 +7,14 @@ html {
   background-attachment:fixed;
 }
 
-nav {
+.custom{
+  border-radius: 0 !important;
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 100;
   height: 10vh;
-}
-.custom{
-  border-radius: 0 !important;
 }
 
 .vert {
@@ -47,14 +45,15 @@ a {
 
 
 #about {
-  margin: 10vh 0 0 0vw;
+  margin: 0;
+  padding: 0;
   color: whitesmoke;
 }
 
 .shade{
   height: 100%;
   width: 100%;
-  padding: 25vh 5vw 25vh 10vw;
+  padding: 35vh 5vw 25vh 10vw;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.2),rgba(9, 13, 23, 0.2));
 }
 
@@ -232,7 +231,7 @@ a {
   #about-p, #contactInfo{
     font-size: 1em !important;
   }
-  .nav{
+  .custom{
     position: absolute;
   }
   .nav-item{
@@ -243,11 +242,10 @@ a {
     background: white !important;
   }
   .main-contain,#works,#experience{
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     width: 100%;
-    height: auto;
+    height: 100%;
   }
   .exp-shade,.my-list{
     flex-direction: column;

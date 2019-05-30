@@ -8,17 +8,17 @@ class NavBar extends Component {
         <a href="#top" class="item header">
           <h1 className="my-name">CY</h1>
         </a>
-        <div class="right menu">
+        <div class="right menu r-m">
           <a href="#about" class="item nav-item">
             ABOUT
           </a>
-          <a href="#experience" class="item nav-item r-m">
+          <a href="#experience" class="item nav-item">
             EXPERIENCE
           </a>
-          <a href="#works" class="item nav-item r-m">
+          <a href="#works" class="item nav-item">
             WORKS
           </a>
-          <a href="#contact" class="item nav-item r-m">
+          <a href="#contact" class="item nav-item">
             CONTACT
           </a>
         </div>
