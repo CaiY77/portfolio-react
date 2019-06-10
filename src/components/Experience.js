@@ -22,23 +22,23 @@ class Experience extends Component {
             <div className="my-list">
 
               <ul className="l-list">
-                <li className="list-style"><List.Icon name="js" /> Javascript / JS6</li>
-                <li className="list-style"><List.Icon name="react" /> React</li>
-                <li className="list-style"><List.Icon name="gem" /> Ruby / Rails</li>
-                <li className="list-style"><List.Icon name="html5" /> HTML / CSS</li>
-                <li className="list-style"><List.Icon name="node js" /> Node.js</li>
-                <li className="list-style"><List.Icon name="coffee" />  Java</li>
-                <li className="list-style"><List.Icon name="python" /> Python</li>
+                <Fade left duration={1000}><li className="list-style"><List.Icon name="js" /> Javascript / JS6</li></Fade>
+                <Fade left duration={1400}><li className="list-style"><List.Icon name="react" /> React</li></Fade>
+                <Fade left duration={1800}><li className="list-style"><List.Icon name="gem" /> Ruby / Rails</li></Fade>
+                <Fade left duration={2200}><li className="list-style"><List.Icon name="html5" /> HTML / CSS</li></Fade>
+                <Fade left duration={2600}><li className="list-style"><List.Icon name="node js" /> Node.js</li></Fade>
+                <Fade left duration={3000}><li className="list-style"><List.Icon name="coffee" />  Java</li></Fade>
+                <Fade left duration={3400}><li className="list-style"><List.Icon name="python" /> Python</li></Fade>
               </ul>
 
               <ul className="l-list">
-                <li className="list-style"><List.Icon name="github" /> Git / Github</li>
-                <li className="list-style"><Icon name="right triangle"/> C++</li>
-                <li className="list-style"><Icon name="right triangle" /> Express.js</li>
-                <li className="list-style"><Icon name="right triangle" /> Sequelize</li>
-                <li className="list-style"><Icon name="right triangle" /> Axios</li>
-                <li className="list-style"><Icon name="right triangle" /> PostgreSQL</li>
-                <li className="list-style"><Icon name="right triangle" /> Semantic-Ui</li>
+                <Fade left duration={1000}><li className="list-style"><List.Icon name="github" /> Git / Github</li></Fade>
+                <Fade left duration={1400}><li className="list-style"><Icon name="right triangle"/> C++</li></Fade>
+                <Fade left duration={1800}><li className="list-style"><Icon name="right triangle" /> Express.js</li></Fade>
+                <Fade left duration={2200}><li className="list-style"><Icon name="right triangle" /> Sequelize</li></Fade>
+                <Fade left duration={2600}><li className="list-style"><Icon name="right triangle" /> Axios</li></Fade>
+                <Fade left duration={3000}><li className="list-style"><Icon name="right triangle" /> PostgreSQL</li></Fade>
+                <Fade left duration={3400}><li className="list-style"><Icon name="right triangle" /> Semantic-Ui</li></Fade>
               </ul>
 
             </div>

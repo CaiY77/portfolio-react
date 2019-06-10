@@ -5,6 +5,7 @@ import league from '../images/league.png';
 import calc from '../images/calc.png';
 import tic from '../images/tic.png';
 import track from '../images/track.png';
+import doodle from '../images/doodle.png';
 import ModalCard from './ModalCard'
 import {Icon,Card,List} from 'semantic-ui-react'
 
@@ -18,6 +19,28 @@ class Works extends Component {
           <h1 className ="headers">{ "<" } <span className="red">My Works</span> {"/>"}</h1>
 
           <Card.Group stackable itemsPerRow={3}>
+
+            <Card color="green" className="all-my-cards">
+              <Card.Content>
+                <div className="gitLinks">
+                  <a href="https://github.com/CaiY77/arcade-2.0" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
+                  <a href="" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
+                </div>
+                <Card.Header className="cardTitles">Doodle Arcade</Card.Header>
+
+                <ModalCard descrip="comingsoon" img={doodle}/>
+
+              </Card.Content>
+              <Card.Content extra>
+                <List horizontal>
+                  <List.Item>React</List.Item>
+                  <List.Item>Sequelize</List.Item>
+                  <List.Item>PostgreSQL</List.Item>
+                  <List.Item>Heroku</List.Item>
+                  <List.Item>React-Router</List.Item>
+                </List>
+              </Card.Content>
+            </Card>
 
             <Card color="green" className="all-my-cards">
               <Card.Content>
