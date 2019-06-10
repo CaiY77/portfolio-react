@@ -28,15 +28,16 @@ class Works extends Component {
                 </div>
                 <Card.Header className="cardTitles">Doodle Arcade</Card.Header>
 
-                <ModalCard descrip="comingsoon" img={doodle}/>
+                <ModalCard descrip="Doodle Arcade is a full-stack React application that runs Socket.io on an Expres server that allows the application to be used simultaneously on different devices.
+                  It also allows the creation of multiple rooms with gives the options to host multiple games at once." img={doodle}/>
 
               </Card.Content>
               <Card.Content extra>
                 <List horizontal>
                   <List.Item>React</List.Item>
-                  <List.Item>Sequelize</List.Item>
-                  <List.Item>PostgreSQL</List.Item>
-                  <List.Item>Heroku</List.Item>
+                  <List.Item>Express</List.Item>
+                  <List.Item>Socket.io</List.Item>
+                  <List.Item>Semantic-Ui</List.Item>
                   <List.Item>React-Router</List.Item>
                 </List>
               </Card.Content>
