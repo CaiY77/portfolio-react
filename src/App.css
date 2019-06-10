@@ -233,7 +233,7 @@ a {
     font-size: 1em !important;
   }
   .custom{
-    position: absolute;
+    position: fixed;
   }
   .nav-item{
     color: black !important;

@@ -23,17 +23,17 @@ class Experience extends Component {
             <div className="my-list">
 
               <ul className="l-list">
-                <Fade bottom duration={1000}><li className="list-style"><List.Icon name="js" /> Javascript / JS6</li></Fade>
-                <Fade bottom duration={1300}><li className="list-style"><List.Icon name="react" /> React</li></Fade>
-                <Fade bottom duration={1600}><li className="list-style"><List.Icon name="gem" /> Ruby / Rails</li></Fade>
-                <Fade bottom duration={1900}><li className="list-style"><List.Icon name="html5" /> HTML / CSS</li></Fade>
-                <Fade bottom duration={2200}><li className="list-style"><List.Icon name="node js" /> Node.js</li></Fade>
-                <Fade bottom duration={2500}><li className="list-style"><List.Icon name="coffee" />  Java</li></Fade>
-                <Fade bottom duration={2800}><li className="list-style"><List.Icon name="python" /> Python</li></Fade>
+                <Fade bottom duration={1000}><li className="list-style"><Icon name="js" /> Javascript / JS6</li></Fade>
+                <Fade bottom duration={1300}><li className="list-style"><Icon name="react" /> React</li></Fade>
+                <Fade bottom duration={1600}><li className="list-style"><Icon name="gem" /> Ruby / Rails</li></Fade>
+                <Fade bottom duration={1900}><li className="list-style"><Icon name="html5" /> HTML / CSS</li></Fade>
+                <Fade bottom duration={2200}><li className="list-style"><Icon name="node js" /> Node.js</li></Fade>
+                <Fade bottom duration={2500}><li className="list-style"><Icon name="coffee" />  Java</li></Fade>
+                <Fade bottom duration={2800}><li className="list-style"><Icon name="python" /> Python</li></Fade>
               </ul>
 
               <ul className="l-list">
-                <Fade bottom duration={1000}><li className="list-style"><List.Icon name="github" /> Socket.io</li></Fade>
+                <Fade bottom duration={1000}><li className="list-style"><Icon name="right triangle" /> Socket.io</li></Fade>
                 <Fade bottom duration={1300}><li className="list-style"><Icon name="right triangle"/> C++</li></Fade>
                 <Fade bottom duration={1600}><li className="list-style"><Icon name="right triangle" /> Express.js</li></Fade>
                 <Fade bottom duration={1900}><li className="list-style"><Icon name="right triangle" /> Sequelize</li></Fade>
