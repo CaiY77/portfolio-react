@@ -181,6 +181,10 @@ a {
   text-align: center;
   padding: 0vh 0 12vh 0;
 }
+.list-header{
+  font-size: 1.5em;
+  font-family: "Courier New", Courier, monospace;
+}
 .red{
   color:crimson;
 }
