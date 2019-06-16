@@ -11,10 +11,11 @@ class Experience extends Component {
         <div className="exp-shade">
           <div className="experience-left">
             <div className="profile-pic"></div>
-            <Fade bottom duration={1000}>
+            <Fade bottom duration={2000}>
               <h1 className="who">Get To Know Me!</h1>
               <p className ="soft-descrip">
-              I have a strong passion for computer science and a huge fan of mathematics. My hobbies include powerlifting and learning new things.</p>
+                I have a strong passion for computer science and a love for mathematics. I find excitement and enjoyment when expanding my knowledge in tech. My long time goal is to expose myself to as much technology as possible.
+              My hobbies include powerlifting and learning new things.</p>
               <p className="quote">" Knowledge is Power. "</p>
             </Fade>
           </div>
