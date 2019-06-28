@@ -11,9 +11,9 @@ class Contact extends Component {
         <div className='shade-c'>
           <Fade bottom>
             <h1 className ="headers">{ "<" } <span className="red">Contact Me</span> {"/>"}</h1>
-            <p id="contactInfo">Enjoy my works? Fill free to contact me.
+            <p id="contactInfo">Enjoy my works? Feel free to contact me.
               I am open to all kinds of free-lancing work.
-            Currently looking for  full-time positions as a Software Engineer or Full-Stack Web Developement. </p>
+            Currently looking for full-time positions as a Software Engineer or Full-Stack Web Developement. </p>
             <a href="mailTo:caih.yang@gmail.com" target="_blank" rel="noopener noreferrer"><Button inverted color='blue'>
               <p className="email">Contact Me!</p>
             </Button></a>
