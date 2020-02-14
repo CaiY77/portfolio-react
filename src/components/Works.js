@@ -24,7 +24,7 @@ class Works extends Component {
               <Card.Content>
                 <div className="gitLinks">
                   <a href="https://github.com/CaiY77/arcade-2.0" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
-                  <a href="" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
+                  <a href="http://doodle-arcade.surge.sh/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
                 </div>
                 <Card.Header className="cardTitles">Doodle Arcade</Card.Header>
 
