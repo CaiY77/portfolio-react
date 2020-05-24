@@ -29,7 +29,7 @@ class Works extends Component {
                 </div>
                 <Card.Header className="cardTitles">TTP Stocks</Card.Header>
 
-                <ModalCard descrip="This stock application imitates the buying of real stocks at real time prices. The purchased stocks are stored in portfolio along with a transaction page. This is a fully responsive application
+                <ModalCard descrip="This stock application imitates the buying of real stocks at real time prices using the IEX Cloud API. The purchased stocks are stored in portfolio along with a transaction page. This is a fully responsive application
                   that also emphisizes on user experience with proper success/error messages." img={ttp}/>
 
               </Card.Content>
