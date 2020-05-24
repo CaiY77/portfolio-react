@@ -6,6 +6,7 @@ import calc from '../images/calc.png';
 import tic from '../images/tic.png';
 import track from '../images/track.png';
 import doodle from '../images/doodle.png';
+import ttp from '../images/ttp.jpg';
 import ModalCard from './ModalCard'
 import {Icon,Card,List} from 'semantic-ui-react'
 
@@ -20,11 +21,34 @@ class Works extends Component {
 
           <Card.Group stackable itemsPerRow={3}>
 
+          <Card color="green" className="all-my-cards">
+            <Card.Content>
+              <div className="gitLinks">
+                <a href="https://github.com/CaiY77/ttp_stage_2" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
+                <a href="http://cai-ttp.surge.sh/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
+              </div>
+              <Card.Header className="cardTitles">TTP Stocks</Card.Header>
+
+              <ModalCard descrip="This stock application imitates the buying of real stocks at real time prices. The purchased stocks are stored in portfolio along with a transaction page. This is a fully responsive application
+              that also emphisizes on user experience with proper success/error messages." img={ttp}/>
+
+            </Card.Content>
+            <Card.Content extra>
+              <List horizontal>
+                <List.Item>React</List.Item>
+                <List.Item>Express</List.Item>
+                <List.Item>IEX Cloud API</List.Item>
+                <List.Item>Semantic-Ui</List.Item>
+                <List.Item>React-Router</List.Item>
+              </List>
+            </Card.Content>
+          </Card>
+
             <Card color="green" className="all-my-cards">
               <Card.Content>
                 <div className="gitLinks">
                   <a href="https://github.com/CaiY77/arcade-2.0" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
-                  <a href="" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
+                  <a href="http://doodle-arcade.surge.sh/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
                 </div>
                 <Card.Header className="cardTitles">Doodle Arcade</Card.Header>
 

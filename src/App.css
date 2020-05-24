@@ -147,6 +147,9 @@ a {
   width: 100%;
   margin:0 !important;
 }
+.work-pics:hover{
+  cursor: pointer;
+}
 .shade-w{
   background:linear-gradient(45deg, rgba(35, 37, 38, 0.2), rgba(65, 67, 69, 0.2)) ;
   padding: 20vh 7vw 20vh 7vw;
