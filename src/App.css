@@ -3,6 +3,7 @@ html {
 }
 .main-contain {
   background: url('images/back-w2.jpg');
+  /* background-size: width height; */
   background-size: cover;
   background-attachment:fixed;
 }
@@ -77,6 +78,7 @@ a {
 
 #experience{
   background: url('images/back-d.jpg');
+  /* background-size: width height; */
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom;
@@ -139,6 +141,7 @@ a {
 
 #works {
   background: url('images/work-back.jpg');
+  /* background-size: width height; */
   background-size: cover;
   background-attachment: fixed;
 }
