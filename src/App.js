@@ -10,10 +10,6 @@ import SideNav from './components/SideNav'
 
 class App extends Component {
 
-  componentDidMount() {
-    document.title = 'Cai Yang | Software Engineer';
-  }
-
   render() {
     return (<div className="main-contain">
       <NavBar />
