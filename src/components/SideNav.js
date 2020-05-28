@@ -5,8 +5,8 @@ class SideNav extends Component {
 
   render() {
     return (
-      <div class="ui small compact vertical labeled icon menu vert">
-        <a href="https://www.docdroid.net/4oyrhwn/resume-pdf" rel="noopener noreferrer" target="_blank" class="item">
+      <div class="ui small compact vertical labeled icon menu vert" style={{'display':'none'}}>
+        <a href="https://www.docdroid.net/xqnHf2p/resume-pdf" rel="noopener noreferrer" target="_blank" class="item">
           <Icon size="small" name="file alternate"/>
           Resume
         </a>
