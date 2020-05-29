@@ -385,4 +385,13 @@ a {
   .dropdown{
     top: 80px;
   }
+  .res-but{
+    bottom: 11vh;
+  }
+  .link-but{
+    bottom: 18vh;
+  }
+  .git-but{
+    bottom: 25vh;
+  }
 }
