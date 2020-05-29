@@ -367,4 +367,7 @@ a {
   .exp-shade,.my-list{
     flex-direction: column;
   }
+  .cardDescrip{
+    font-size: 1.1em !important;
+  }
 }
