@@ -8,7 +8,7 @@ import track from '../images/track.png';
 import doodle from '../images/doodle.png';
 import ttp from '../images/ttp.jpg';
 import ModalCard from './ModalCard'
-import {Icon,Card,List} from 'semantic-ui-react'
+import {Icon,Card,List, Button} from 'semantic-ui-react'
 
 
 class Works extends Component {
@@ -197,7 +197,11 @@ class Works extends Component {
             </Card>
 
           </Card.Group>
-        
+        <div className="see-more">
+        <a href="https://github.com/CaiY77" target="_blank" rel="noopener noreferrer"><Button inverted color='blue'>
+              <p className="email">See More!</p>
+            </Button></a>
+        </div>
       </section>
     );
   }

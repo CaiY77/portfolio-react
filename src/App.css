@@ -110,6 +110,7 @@ html {
 .drop-wrap{
   padding: 55px 0px;
   text-align: center;
+  border: solid black 1px;
 }
 
 .drop-style{
@@ -283,6 +284,10 @@ a {
 .work-pics:hover{
   cursor: pointer;
 }
+.see-more{
+  text-align: center;
+  margin-top: 5vh;
+}
 
 .gitLinks {
   text-align: right;
@@ -356,7 +361,7 @@ a {
     font-size: 1.9em !important;
   }
   #about-p, #contactInfo{
-    font-size: 1em !important;
+    font-size: 1.4em !important;
   }
   .main-contain,#works,#experience{
     background-size: cover;
@@ -369,5 +374,15 @@ a {
   }
   .cardDescrip{
     font-size: 1.1em !important;
+  }
+  .see-more{
+    margin-top: 10vh;
+  }
+  .nav{
+    padding: 15px;
+    border-bottom: black 1px solid;
+  }
+  .dropdown{
+    top: 80px;
   }
 }
