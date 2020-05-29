@@ -8,7 +8,7 @@ class Experience extends Component {
   render() {
     return (
       <section id="experience">
-        <div className="exp-shade">
+        
           <div className="experience-left">
             <div className="profile-pic"></div>
             <Fade bottom duration={1500}>
@@ -38,7 +38,7 @@ class Experience extends Component {
               </ul>
 
               <ul className="l-list">
-                <h2 className="list-header"> Experienced With </h2>
+                <h2 className="list-header list-extra"> Experienced With </h2>
                 <Fade bottom duration={1000}><li className="list-style"><Icon name="coffee"/> Java</li></Fade>
                 <Fade bottom duration={1200}><li className="list-style"><Icon name="gem" /> Ruby / Rails</li></Fade>
                 <Fade bottom duration={1400}><li className="list-style"><Icon name="node js" /> Node.js</li></Fade>
@@ -49,7 +49,7 @@ class Experience extends Component {
 
             </div>
           </div>
-        </div>
+        
       </section>
     );
   }

@@ -2,11 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 .main-contain {
-  background: url('images/back-w2.jpg');
-  background-size: cover;
-  background-attachment:fixed;
-  width: 100%;
-  height: auto;
+  background: linear-gradient(134deg, rgb(0, 0, 0),rgb(47, 74, 141));
 }
 
 .nav {
@@ -182,14 +178,6 @@ html {
 		transform: translate3d(0, 0, 0);
 	}
 }
-@keyframes fadeOut {
-	from {
-		transform: translate3d(0, 0, 0);
-	}
-	to {
-		transform: translate3d(0, -20%, 0);
-	}
-}
 
 .email {
   letter-spacing: 2px;
@@ -201,16 +189,10 @@ a {
 }
 
 #about {
-  margin: 0;
-  padding: 0;
   color: whitesmoke;
-}
-
-.shade{
   height: 100%;
   width: 100%;
   padding: 30vh 5vw 30vh 10vw;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2),rgba(9, 13, 23, 0.2));
 }
 
 #about-n {
@@ -232,22 +214,18 @@ a {
 }
 
 #experience{
-  background: url('images/back-d.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: bottom;
-}
-.exp-shade{
-  background:linear-gradient(45deg, rgba(35, 37, 38, 0.2), rgba(65, 67, 69, 0.2)) ;
   padding: 24vh 8vw 24vh 8vw;
   display: flex;
   flex-wrap: wrap;
 }
+
 .experience-left{
   flex: 4;
+  color: whitesmoke;
 }
 .experience-right{
   padding: 5vh;
+  color: whitesmoke;
   flex: 7;
 }
 .my-list{
@@ -295,9 +273,7 @@ a {
 
 
 #works {
-  background: url('images/work-back.jpg');
-  background-size: cover;
-  background-attachment: fixed;
+  padding: 20vh 7vw 20vh 7vw;
 }
 .work-pics{
   height:100%;
@@ -306,12 +282,6 @@ a {
 }
 .work-pics:hover{
   cursor: pointer;
-}
-.shade-w{
-  background:linear-gradient(45deg, rgba(35, 37, 38, 0.2), rgba(65, 67, 69, 0.2)) ;
-  padding: 20vh 7vw 20vh 7vw;
-  height: 100%;
-  width: 100%;
 }
 
 .gitLinks {
@@ -331,7 +301,7 @@ a {
   background: white;
 }
 .all-my-cards{
-  opacity: 0.95;
+  opacity: 0.9;
   margin-bottom: 5vh !important;
 }
 .headers{
@@ -349,16 +319,8 @@ a {
   color:crimson;
 }
 #contact{
-  text-align: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: bottom;
-}
-.shade-c{
-  height: 100%;
-  width: 100%;
   padding: 20vh 0 20vh 0;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2),rgba(9, 13, 23, 0.2));
+  text-align: center;
 }
 #contactInfo{
   font-size: 2em;
@@ -372,31 +334,29 @@ a {
 
 @media (max-width: 375px) {
 
-  main {
-    margin-top: 34vh;
-  }
   #about-n, .headers{
-    font-size: 2.7em !important;
+    font-size: 2.5em !important;
   }
   .exper-style{
-    font-size: 2em !important;
-    margin-top:4vh !important;
-    margin-bottom:4vh !important;
+    font-size: 2.2em !important;
+    margin-top:10vh !important;
+    margin-bottom:10vh !important;
     padding: 0;
   }
   .experience-right{
     padding:0;
+  }
+  .list-style{
+    font-size: 0.9em;
+  }
+  .list-extra{
+    margin-top: 5vh !important;
   }
   #about-h{
     font-size: 1.9em !important;
   }
   #about-p, #contactInfo{
     font-size: 1em !important;
-  }
-  .custom{
-    position: fixed;
-    margin: 0 !important;
-    padding: 0 !important;
   }
   .main-contain,#works,#experience{
     background-size: cover;
@@ -406,9 +366,5 @@ a {
   }
   .exp-shade,.my-list{
     flex-direction: column;
-  }
-  .vert{
-    top: 35vh;
-    position: absolute;
   }
 }

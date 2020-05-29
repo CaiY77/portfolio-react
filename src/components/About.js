@@ -8,10 +8,10 @@ class About extends Component {
   render() {
     return (
       <section id="about">
-        <div className= "shade">
+        
           <Fade bottom>
             <h1 id="about-n">Cai H. Yang</h1>
-            <h2 id="about-h"> Software Engineer | Full-Stack Developer </h2>
+            <h2 id="about-h"> Software Engineer | Full-Stack Engineer </h2>
             <br/>
             <p id="about-p"> I enjoy building applications from the ground-up
               <br/> as well as using logical deduction with algorithmic
@@ -21,7 +21,7 @@ class About extends Component {
               <p className="email">Say Hello!</p>
             </Button></a>
           </Fade>
-        </div>
+        
       </section>
     );
   }

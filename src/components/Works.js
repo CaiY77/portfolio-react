@@ -16,7 +16,6 @@ class Works extends Component {
   render() {
     return (
       <section id="works">
-        <div className="shade-w">
           <h1 className ="headers">{ "<" } <span className="red">My Works</span> {"/>"}</h1>
 
           <Card.Group stackable itemsPerRow={3}>
@@ -198,7 +197,7 @@ class Works extends Component {
             </Card>
 
           </Card.Group>
-        </div>
+        
       </section>
     );
   }

@@ -80,10 +80,10 @@ class NavBar extends Component {
         
          <Fade top collapse when={isOpen} duration={1400} style={{'position':'absolute'}}>
             <div className="dropdown" style={{ display: (isOpen)?"block":"none" }}>
-              <Fade top collapse when={isOpen}><div className="drop-wrap"><a href="#about" className="custom-style drop-style">ABOUT</a></div></Fade>
-              <Fade top collapse when={isOpen}><div className="drop-wrap"><a href="#experience" className="custom-style drop-style">EXPERIENCE</a></div></Fade>
-              <Fade top collapse when={isOpen}><div className="drop-wrap"><a href="#works" className="custom-style drop-style">WORKS</a></div></Fade>
-              <Fade top collapse when={isOpen}><div className="drop-wrap"><a href="#contact" className="custom-style drop-style">CONTACT</a></div></Fade>
+              <Fade top collapse when={isOpen}><div className="drop-wrap"><a href="#about" onClick={()=>this.menuToggle()} className="custom-style drop-style">ABOUT</a></div></Fade>
+              <Fade top collapse when={isOpen}><div className="drop-wrap"><a href="#experience" onClick={()=>this.menuToggle()} className="custom-style drop-style">EXPERIENCE</a></div></Fade>
+              <Fade top collapse when={isOpen}><div className="drop-wrap"><a href="#works" onClick={()=>this.menuToggle()} className="custom-style drop-style">WORKS</a></div></Fade>
+              <Fade top collapse when={isOpen}><div className="drop-wrap"><a href="#contact" onClick={()=>this.menuToggle()} className="custom-style drop-style">CONTACT</a></div></Fade>
             </div>
           </Fade>
        
