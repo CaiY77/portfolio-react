@@ -7,11 +7,7 @@ html {
   background-attachment:fixed;
   width: 100%;
   height: auto;
-  border: solid red 2px;
 }
-
-
-
 
 .nav {
   width: 100%;
@@ -80,9 +76,7 @@ html {
 .custom-style:hover{
   color: white;
 }
-/* #burger{
-  padding-top:6px;
-} */
+
 .bar1, .bar2, .bar3 {
   width: 45px;
   height: 5px;
@@ -93,14 +87,14 @@ html {
 }
 
 .change .bar1 {
-  /* -webkit-transform: rotate(-45deg) translate(-9px, 6px); */
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
   transform: rotate(-45deg) translate(-11px, 6px);
 }
 
 .change .bar2 {opacity: 0;}
 
 .change .bar3 {
-  /* -webkit-transform: rotate(45deg) translate(-8px, -8px); */
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-11px, -8px);
 }
 
@@ -114,21 +108,85 @@ html {
   flex-direction: column;
   padding: 50x 0;
 }
+
 .drop-wrap{
   padding: 55px 0px;
   text-align: center;
 }
+
 .drop-style{
   padding: 20px;
   letter-spacing: 5px;
 }
 
-
-.vert {
+.button-menu{
   position: fixed;
-  left: 0;
-  top: 15vh;
-  z-index: 10;
+  right: 2vw;
+  margin: 0 !important;
+  font-size: 25px !important;
+  border-radius: 50% !important;
+  border: solid 2px white !important;
+  background: #222 !important;
+  color: white !important;
+  z-index: 100;
+}
+
+.hide{
+  display: none;
+}
+.show{
+  animation: fadeIn 1s ease-in-out;
+  display: block;
+}
+
+@media (max-width: 375px) {
+  .button-menu{
+    right: 5vw;
+    font-size: 18px !important;
+  }
+}
+
+.button-menu:hover{
+  background: #efefef !important;
+  color: #222 !important;
+}
+.op-but{
+  bottom: 3vh;
+  background: #00CED1	 !important;
+}
+.op-but-open{
+  bottom: 3vh;
+  background: red !important;
+}
+.op-but{
+  bottom: 3vh;
+  background: #00CED1	 !important;
+}
+.res-but{
+  bottom: 13vh;
+}
+.link-but{
+  bottom: 23vh;
+}
+.git-but{
+  bottom: 33vh;
+}
+
+@keyframes fadeIn {
+	from {
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		transform: translate3d(0, 0, 0);
+	}
+}
+@keyframes fadeOut {
+	from {
+		transform: translate3d(0, 0, 0);
+	}
+	to {
+		transform: translate3d(0, -20%, 0);
+	}
 }
 
 .email {
@@ -149,7 +207,7 @@ a {
 .shade{
   height: 100%;
   width: 100%;
-  padding: 35vh 5vw 25vh 10vw;
+  padding: 30vh 5vw 30vh 10vw;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.2),rgba(9, 13, 23, 0.2));
 }
 
@@ -173,7 +231,6 @@ a {
 
 #experience{
   background: url('images/back-d.jpg');
-  /* background-size: width height; */
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom;
