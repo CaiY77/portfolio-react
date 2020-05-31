@@ -217,16 +217,15 @@ a {
 #experience{
   padding: 24vh 8vw 24vh 8vw;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;  
+  color: whitesmoke;
 }
 
 .experience-left{
   flex: 4;
-  color: whitesmoke;
 }
 .experience-right{
   padding: 5vh;
-  color: whitesmoke;
   flex: 7;
 }
 .my-list{
@@ -272,7 +271,11 @@ a {
   padding-top: 3vh;
 }
 
-
+.horizontal-line{
+  border-top: solid ghostwhite 2px;
+  width: 60vw;
+  margin: 0 20vw;
+}
 #works {
   padding: 20vh 7vw 20vh 7vw;
 }
@@ -334,6 +337,42 @@ a {
   color: whitesmoke;
   line-height: 2;
   margin: 0 10vw 5vh 10vw;
+}
+
+.footer{
+  padding: 40px 20vw;
+  background: #222;
+  display: flex;
+  justify-content: space-around;
+}
+.copy{
+  color: ghostwhite !important;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 1px;
+  font-size: 22px;
+  padding: 11px 0 0 0;
+  margin: 0;
+}
+.footer-but{
+  margin-right: 30px !important;
+  background: #222 !important;
+  color: ghostwhite !important;
+  border-radius: 50% !important;
+  border: solid 2px #efefef !important;
+  font-size: 18px !important;
+}
+.footer-but:hover{
+  background: #efefef !important;
+  color: #222 !important;
+}
+@media (max-width: 800px) {
+  .footer{
+    display: block;
+    text-align: center;   
+  }
+  .footer-icons{
+    margin-top: 10px;
+  }
 }
 
 

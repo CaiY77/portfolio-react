@@ -17,8 +17,11 @@ class App extends Component {
 
       <main>
         <About />
+
         <Experience />
+    
         <Works />
+
         <Contact />
       </main>
 
