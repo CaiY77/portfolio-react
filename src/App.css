@@ -167,7 +167,6 @@ html {
 }
 .res-but{
   bottom: 13vh;
-  font-size: 15px;
 }
 .res-header{
   bottom: 13vh;
@@ -231,7 +230,7 @@ a {
 #experience{
   padding: 24vh 8vw 24vh 8vw;
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   color: whitesmoke;
 }
 
@@ -380,7 +379,7 @@ a {
 @media (max-width: 800px) {
   .footer{
     display: block;
-    text-align: center;   
+    text-align: center;
   }
   .footer-icons{
     margin-top: 10px;
@@ -444,11 +443,23 @@ a {
   .res-but{
     bottom: 11vh;
   }
+  .res-header{
+    bottom: 9.5vh;
+  }
   .link-but{
     bottom: 18vh;
   }
+  .link-header{
+    bottom: 19vh;
+  }
   .git-but{
     bottom: 25vh;
+  }
+  .git-header{
+    bottom: 23.5vh;
+  }
+  .custyle{
+    right: calc(2vw + 75px);
   }
   .contactInfo{
     font-size: 15px;
