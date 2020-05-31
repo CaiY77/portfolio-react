@@ -9,9 +9,9 @@ class About extends Component {
     return (
       <section id="about">
         
-          <Fade cascade bottom duration={1000}>
+          <Fade bottom duration={1400}>
             <h1 id="about-n">Cai H. Yang</h1>
-            <h2 id="about-h">Software Engineer |Full-Stack Engineer</h2>
+            <h2 id="about-h">Software Engineer | Full-Stack Engineer </h2>
             <br/>
             <p id="about-p">I am enjoy building applications and websites from the ground-up
             <br/>as well as using logical deduction with algorithmic

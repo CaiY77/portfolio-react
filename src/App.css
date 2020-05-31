@@ -344,12 +344,11 @@ a {
   text-align: center;
 }
 #contactInfo{
-  font-size: 2em;
+  font-size: 25px;
   font-family: "Courier New", Courier, monospace;
-  font-weight: 500;
   color: whitesmoke;
   line-height: 2;
-  margin: 0 10vw 5vh 10vw;
+  padding: 0 10vw 3vh 10vw;
 }
 
 .footer{
@@ -450,5 +449,8 @@ a {
   }
   .git-but{
     bottom: 25vh;
+  }
+  .contactInfo{
+    font-size: 15px;
   }
 }
