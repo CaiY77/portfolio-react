@@ -33,8 +33,6 @@ class Experience extends Component {
                 <Fade bottom duration={2000}><li className="list-style"><Icon name="right triangle" /> Sequelize</li></Fade>
                 <Fade bottom duration={2200}><li className="list-style"><Icon name="right triangle" />  Express.js</li></Fade>
                 <Fade bottom duration={2400}><li className="list-style"><Icon name="right triangle" /> PostgreSQL</li></Fade>
-
-
               </ul>
 
               <ul className="l-list">
