@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {Button} from 'semantic-ui-react'
+import Fade from 'react-reveal/Fade';
 
 class SideNav extends Component {
 
@@ -35,7 +36,12 @@ class SideNav extends Component {
         <a href="https://www.docdroid.net/xqnHf2p/resume-pdf" rel="noopener noreferrer" target="_blank"><Button className="button-menu res-but" icon="file alternate"></Button></a>
         <a href="https://www.linkedin.com/in/caihyang/" rel="noopener noreferrer" target="_blank"><Button className="button-menu link-but" icon="linkedin"></Button></a>
         <a href="https://github.com/CaiY77" rel="noopener noreferrer" target="_blank"><Button className="button-menu git-but" icon="github"></Button></a>
+        <Fade left><p className="res-header custyle">RESUME</p></Fade>
+        <Fade left><p className="git-header custyle">GITHUB</p></Fade> 
+        <Fade left><p className="link-header custyle">LINKEDIN</p></Fade> 
       </div>
+
+      
 
     </div>);
   }

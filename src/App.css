@@ -157,17 +157,31 @@ html {
   bottom: 3vh;
   background: red !important;
 }
-.op-but{
-  bottom: 3vh;
-  background: #00CED1	 !important;
+.custyle{
+  position: fixed;
+  font-size: 20px;
+  color: #efefef;
+  letter-spacing: 3px;
+  right: calc(2vw + 100px);
+  font-family: "Courier New", Courier, monospace;
 }
 .res-but{
+  bottom: 13vh;
+  font-size: 15px;
+}
+.res-header{
   bottom: 13vh;
 }
 .link-but{
   bottom: 23vh;
 }
+.link-header{
+  bottom: 25vh;
+}
 .git-but{
+  bottom: 33vh;
+}
+.git-header{
   bottom: 33vh;
 }
 
