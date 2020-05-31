@@ -8,15 +8,13 @@ class Contact extends Component {
   render() {
     return (
       <section id="contact">
-          <Fade bottom duration={1000}>
+          
             <h1 className ="headers">{ "<" } <span className="red">Contact Me</span> {"/>"}</h1>
-          </Fade>
-          <Fade bottom duration={1200}>
-            <p id="contactInfo">Enjoy my works? Feel free to contact me.
-              I am open to all kinds of free-lancing work.
-            Currently looking for full-time positions as a Software Engineer or Full-Stack Engineer. </p>
-          </Fade>
-          <Fade bottom duration={1400}>
+            <Fade bottom cascade duration={1000}>
+            <p id="contactInfo"> Enjoy my works? </p>
+            <p id="contactInfo"> Feel free to reach out.
+              My inbox is open to all inquires, project, proposals and opportunities.</p>
+          
             <a href="mailTo:caih.yang@gmail.com" target="_blank" rel="noopener noreferrer"><Button inverted color='blue'>
               <p className="email">Contact Me!</p>
             </Button></a>

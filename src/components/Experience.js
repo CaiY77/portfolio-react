@@ -11,7 +11,7 @@ class Experience extends Component {
         
           <div className="experience-left">
             <div className="profile-pic"></div>
-            <Fade bottom duration={1500}>
+            <Fade bottom cascade duration={1000}>
               <h1 className="who">Get To Know Me!</h1>
               <p className ="soft-descrip">
                 I have a strong passion for computer science and a love for mathematics. I find excitement and enjoyment when expanding my knowledge in tech. My long time goal is to expose myself to as much technology as possible.

@@ -259,7 +259,6 @@ a {
 .who{
   font-family: "Courier New", Courier, monospace;
   text-align: center;
-  border-bottom: solid 2px;
 }
 .soft-descrip, .quote{
   font-family: "Courier New", Courier, monospace;
@@ -386,6 +385,11 @@ a {
   }
   .footer-icons{
     margin-top: 10px;
+    display:flex;
+    justify-content: space-around;
+  }
+  .footer-but{
+    margin-right: 0 !important;
   }
 }
 
