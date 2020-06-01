@@ -10,7 +10,7 @@ class Contact extends Component {
       <section id="contact">
           
             <h1 className ="headers">{ "<" } <span className="red">Contact Me</span> {"/>"}</h1>
-            <Fade bottom cascade duration={1000}>
+            <Fade bottom duration={1000}>
             <p id="contactInfo"> Enjoy my works? </p>
             <p id="contactInfo"> Feel free to reach out.
               My inbox is open to all inquires, project, proposals and opportunities.</p>

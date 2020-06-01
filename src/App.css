@@ -262,6 +262,7 @@ a {
 .soft-descrip, .quote{
   font-family: "Courier New", Courier, monospace;
   font-size: 1.4em;
+  word-break: keep-all !important;
 }
 .quote{
   font-style: italic;
