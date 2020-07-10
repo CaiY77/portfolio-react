@@ -27,13 +27,13 @@ class Experience extends Component {
             <Fade bottom duration={1200}>
               <h1 className="who">Get To Know Me!</h1>
               <p className ="soft-descrip">
-                I have a strong passion for computer science and a love for mathematics. I find excitement and enjoyment when expanding my knowledge in tech. My long time goal is to expose myself to as much technology as possible.
+                I have a strong passion for computer science and a love for mathematics. I find excitement and enjoyment when expanding my knowledge in tech. My goal is to expose myself to as much technology as possible.
               My hobbies include powerlifting and learning new things.</p>
               <p className="quote">" Knowledge is Power. "</p>
             </Fade>
           </div>
           <div className="experience-right">
-            <h1 className ="headers exper-style">{ "<" } <span className="red"> Experience </span> {"/>"}</h1>
+            <h2 className ='exper'>Some tech I've been working with ...</h2>
             <div className="skill-contain">
               <Flip top>
                 <img alt="Javascript" src={js} className='language'/>
