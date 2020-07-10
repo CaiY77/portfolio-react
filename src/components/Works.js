@@ -27,8 +27,8 @@ class Works extends Component {
           />
           <Right 
             img={doodle} 
-            des="Doodle Arcade is a full-stack React application that runs Socket.io on an Expres server that allows the application to be used simultaneously on different devices.
-                  It also allows the creation of multiple rooms with gives the options to host multiple games at once." 
+            des="Doodle Arcade is a full-stack React application that runs Socket.io on an Express server that allows the app to be used simultaneously on different instances.
+                  It allows the creation and hosting of multiple rooms." 
             link="http://doodle-arcade.surge.sh/"
             title= "DOODLE ARCADE"
             git="https://github.com/CaiY77/arcade-2.0"
@@ -36,8 +36,7 @@ class Works extends Component {
           />
           <Left 
             img={ttp} 
-            des="This stock application imitates the buying of real stocks at real time prices using the IEX Cloud API. The purchased stocks are stored in portfolio along with a transaction page. This is a fully responsive application
-                  that also emphisizes on user experience with proper success/error messages." 
+            des="This responsive stock app imitates the buying of real stocks and real time prices using the IEX Cloud API. The purchased stocks are stored in portfolio. The app also emphisizes on user experience with proper success/error messages." 
             link="http://cai-ttp.surge.sh/"
             title= "TTP STOCKS"
             git="https://github.com/CaiY77/ttp_stage_2"
