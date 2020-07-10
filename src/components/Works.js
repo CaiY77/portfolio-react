@@ -2,14 +2,12 @@ import React, { Component } from 'react';
 import aniManage from '../images/ani-manage';
 import arcade from '../images/arcade.png';
 import league from '../images/league.png';
-import calc from '../images/calc.png';
-import tic from '../images/tic.png';
 import track from '../images/track.png';
 import doodle from '../images/doodle.png';
-import ttp from '../images/ttp.jpg';
-import ModalCard from './ModalCard'
-import {Icon,Card,List, Button} from 'semantic-ui-react'
-
+import ttp from '../images/ttp.png';
+import Right from './Right.js'
+import Left from './Left.js'
+import { Button } from 'semantic-ui-react'
 
 class Works extends Component {
 
@@ -18,185 +16,61 @@ class Works extends Component {
       <section id="works">
           <h1 className ="headers">{ "<" } <span className="red">My Works</span> {"/>"}</h1>
 
-          <Card.Group stackable itemsPerRow={3}>
-
-            <Card color="green" className="all-my-cards">
-              <Card.Content>
-                <div className="gitLinks">
-                  <a href="https://github.com/CaiY77/ttp_stage_2" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
-                  <a href="http://cai-ttp.surge.sh/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
-                </div>
-                <Card.Header className="cardTitles">TTP Stocks</Card.Header>
-
-                <ModalCard descrip="This stock application imitates the buying of real stocks at real time prices using the IEX Cloud API. The purchased stocks are stored in portfolio along with a transaction page. This is a fully responsive application
-                  that also emphisizes on user experience with proper success/error messages." img={ttp}/>
-
-              </Card.Content>
-              <Card.Content extra>
-                <List horizontal>
-                  <List.Item>React</List.Item>
-                  <List.Item>Express</List.Item>
-                  <List.Item>IEX API</List.Item>
-                <List.Item>Semantic-Ui</List.Item>
-                <List.Item>React-Router</List.Item>
-              </List>
-            </Card.Content>
-          </Card>
-
-            <Card color="green" className="all-my-cards">
-              <Card.Content>
-                <div className="gitLinks">
-                  <a href="https://github.com/CaiY77/arcade-2.0" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
-                  <a href="http://doodle-arcade.surge.sh/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
-                </div>
-                <Card.Header className="cardTitles">Doodle Arcade</Card.Header>
-
-                <ModalCard descrip="Doodle Arcade is a full-stack React application that runs Socket.io on an Expres server that allows the application to be used simultaneously on different devices.
-                  It also allows the creation of multiple rooms with gives the options to host multiple games at once." img={doodle}/>
-
-              </Card.Content>
-              <Card.Content extra>
-                <List horizontal>
-                  <List.Item>React</List.Item>
-                  <List.Item>Express</List.Item>
-                  <List.Item>Socket.io</List.Item>
-                  <List.Item>Semantic-Ui</List.Item>
-                  <List.Item>React-Router</List.Item>
-                </List>
-              </Card.Content>
-            </Card>
-
-            <Card color="green" className="all-my-cards">
-              <Card.Content>
-                <div className="gitLinks">
-                  <a href="https://github.com/CaiY77/track-fit" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
-                  <a href="http://track-fitness.surge.sh/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
-                </div>
-                <Card.Header className="cardTitles">Track-Fitness</Card.Header>
-
-                <ModalCard descrip="Track-Fit is a full-stack React application that runs Sequelize, PostgreSQL and Express based back end. It contains
-                  authentication which allows the creation of unique users. The app provides a quick and easy way to track & log food/exercise entries." img={track}/>
-
-              </Card.Content>
-              <Card.Content extra>
-                <List horizontal>
-                  <List.Item>React</List.Item>
-                  <List.Item>Sequelize</List.Item>
-                  <List.Item>PostgreSQL</List.Item>
-                  <List.Item>Heroku</List.Item>
-                  <List.Item>React-Router</List.Item>
-                </List>
-              </Card.Content>
-            </Card>
-
-            <Card color="green" className="all-my-cards">
-              <Card.Content>
-                <div className="gitLinks">
-                  <a href="https://github.com/CaiY77/ani-manage" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
-                  <a href="http://ani-manage.surge.sh/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
-                </div>
-                <Card.Header className="cardTitles">Ani-Manage</Card.Header>
-
-                <ModalCard descrip="An animation search engine built on React.js that uses data pulled from Jikan's API.
-                  Managing states in a way that allows users to bookmark favorites as well as the integration of local storage
-                  to store bookmark data. Deployed with Heroku." img={aniManage}/>
-
-              </Card.Content>
-              <Card.Content extra>
-                <List horizontal>
-                  <List.Item>React</List.Item>
-                  <List.Item>API</List.Item>
-                  <List.Item>Axios</List.Item>
-                  <List.Item>Heroku</List.Item>
-                  <List.Item>React-Router</List.Item>
-                  <List.Item>Semantic-Ui</List.Item>
-                </List>
-              </Card.Content>
-            </Card>
-
-            <Card color="green" className="all-my-cards">
-              <Card.Content>
-                <div className="gitLinks">
-                  <a href="https://github.com/CaiY77/My-Arcade" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
-                  <a href="https://cai-arcade.netlify.com/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
-                </div>
-                <Card.Header className="cardTitles">Cai's Arcade</Card.Header>
-
-                <ModalCard descrip="A fully functional web based arcade filled with games based of remakes of the classics or creation on the spot.
-                  Uses HTML/CSS and a lot OOP Javascript." img={arcade} />
-
-              </Card.Content>
-              <Card.Content extra>
-                <List horizontal>
-                  <List.Item>Javascript/JS6</List.Item>
-                  <List.Item>CSS</List.Item>
-                  <List.Item>HTML</List.Item>
-                  <List.Item>OOP</List.Item>
-                </List>
-              </Card.Content>
-            </Card>
-
-            <Card color="green" className="all-my-cards">
-              <Card.Content>
-                <div className="gitLinks">
-                  <a href="https://github.com/CaiY77/PS_Final" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="github"></Icon></a>
-                  <a href="https://my-league-picks.netlify.com/" target="_blank" rel="noopener noreferrer"><Icon color="black" size='big' name="globe"></Icon></a>
-                </div>
-                <Card.Header className="cardTitles">League-Picks</Card.Header>
-                <ModalCard descrip="Blog like webpage to show mastery in HTML, CSS and Javascript. Implemented best practices in the Web Developement field." img={league} />
-
-              </Card.Content>
-              <Card.Content extra>
-                <List horizontal>
-                  <List.Item>Javascript/JS6</List.Item>
-                  <List.Item>HTML</List.Item>
-                  <List.Item>CSS</List.Item>
-                  <List.Item>JQuery</List.Item>
-                </List>
-              </Card.Content>
-            </Card>
-
-            <Card color="green" className="all-my-cards">
-              <Card.Content>
-                <div className="gitLinks">
-                  <a href="https://github.com/CaiY77/Calculator-Proj2" target="_blank" rel="noopener noreferrer" ><Icon color="black" size='big' name="github"></Icon></a>
-                  <a href="https://web-calculator.netlify.com/" target="_blank" rel="noopener noreferrer" ><Icon color="black" size='big' name="globe"></Icon></a>
-                </div>
-                <Card.Header className="cardTitles">Web-Calculator</Card.Header>
-
-                <ModalCard descrip="Interactive web calculator that does all basic operations with an addition of an average feature." img={calc}/>
-
-              </Card.Content>
-              <Card.Content extra>
-                <List horizontal>
-                  <List.Item>Javascript/JS6</List.Item>
-                  <List.Item>HTML</List.Item>
-                  <List.Item>CSS</List.Item>
-                </List>
-              </Card.Content>
-            </Card>
-
-            <Card color="green" className="all-my-cards">
-              <Card.Content>
-                <div className="gitLinks">
-                  <a href="https://github.com/CaiY77/tic-tac-toe" target="_blank" rel="noopener noreferrer" ><Icon color="black" size='big' name="github"></Icon></a>
-                  <a href="https://tic-tac-toe-cy.netlify.com/" target="_blank" rel="noopener noreferrer" ><Icon color="black" size='big' name="globe"></Icon></a>
-                </div>
-                <Card.Header className="cardTitles">Tic-Tac-Toe</Card.Header>
-
-                <ModalCard descrip="Simple game of the classic Tic-Tac-Toe using Javascript while interacting with the DOM." img={tic}/>
-
-              </Card.Content>
-              <Card.Content extra>
-                <List horizontal>
-                  <List.Item>Javascript/JS6</List.Item>
-                  <List.Item>HTML</List.Item>
-                  <List.Item>CSS</List.Item>
-                </List>
-              </Card.Content>
-            </Card>
-
-          </Card.Group>
+          <Left 
+            img={track} 
+            des="Track-Fit is a full-stack React application that runs Sequelize, PostgreSQL and Express based back end. It contains
+            authentication which allows the creation of unique users. The app provides a quick and easy way to track & log food/exercise entries." 
+            link="http://track-fitness.surge.sh/"
+            title= "TRACK-FITNESS"
+            git="https://github.com/CaiY77/track-fit"
+            tech={["React","Express","PostgreSQL","Heroku","Sequelize"]}
+          />
+          <Right 
+            img={doodle} 
+            des="Doodle Arcade is a full-stack React application that runs Socket.io on an Expres server that allows the application to be used simultaneously on different devices.
+                  It also allows the creation of multiple rooms with gives the options to host multiple games at once." 
+            link="http://doodle-arcade.surge.sh/"
+            title= "DOODLE ARCADE"
+            git="https://github.com/CaiY77/arcade-2.0"
+            tech={["React","Express","Socket.io","React-Router","Semantic-Ui"]}
+          />
+          <Left 
+            img={ttp} 
+            des="This stock application imitates the buying of real stocks at real time prices using the IEX Cloud API. The purchased stocks are stored in portfolio along with a transaction page. This is a fully responsive application
+                  that also emphisizes on user experience with proper success/error messages." 
+            link="http://cai-ttp.surge.sh/"
+            title= "TTP STOCKS"
+            git="https://github.com/CaiY77/ttp_stage_2"
+            tech={["React","Express","IEX API","React-Router","Semantic-Ui"]}
+          />
+          <Right 
+            img={aniManage} 
+            des="An animation search engine built on React.js that uses data pulled from Jikan's API. Managing states in a way that allows users to bookmark favorites as well as the integration of local storage
+                  to store bookmark data. Deployed with Heroku." 
+            link="http://ani-manage.surge.sh/"
+            title= "ANI-MANAGE"
+            git="https://github.com/CaiY77/ani-manage"
+            tech={["React","API","Heroku","Axios","Semantic", "React-Router"]}
+          />
+          <Left 
+            img={arcade} 
+            des="A fully functional web based arcade filled with games based of remakes of the classics or creation on the spot.
+            Uses HTML/CSS and a lot OOP Javascript." 
+            link="https://cai-arcade.netlify.com/"
+            title= "WEB ARCADE"
+            git="https://github.com/CaiY77/My-Arcade"
+            tech={["JS/JS6","HTML","CSS","Object-Oriented-Programming"]}
+          />
+          <Right 
+            img={league} 
+            des="Blog like webpage to show mastery in HTML, CSS and Javascript. Implemented best practices in the Web Developement field." 
+            link="https://my-league-picks.netlify.com/"
+            title= "LEAGUE PICKS"
+            git="https://github.com/CaiY77/PS_Final"
+            tech={["JS/JS6","HTML","CSS", "JQuery"]}
+          />
+       
+       
         <div className="see-more">
         <a href="https://github.com/CaiY77" target="_blank" rel="noopener noreferrer"><Button inverted color='blue'>
               <p className="email">See More!</p>

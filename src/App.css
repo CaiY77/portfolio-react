@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 .main-contain {
-  background: linear-gradient(134deg, rgb(0, 0, 0),rgb(47, 74, 141));
+  background: rgb(16,26,50);
 }
 
 .nav {
@@ -15,7 +15,7 @@ html {
 
 @media (max-width: 1000px) {
   .nav{
-    background-color: rgb(2,4,7);
+    background-color: rgb(16,26,50);
     position: fixed;
   }
 }
@@ -327,41 +327,129 @@ a {
   width: 60vw;
   margin: 0 20vw;
 }
+
+
+.work-contain{
+  position: relative;
+  height: 550px;
+  margin: 0 10vw;
+  border-bottom: dashed 1px ghostwhite;
+}
+.work-img-right{
+  height: 380px;
+  width: 650px;
+  position: absolute;
+  top: 85px;
+  left: 50px;
+  z-index:1;
+}
+.shade-right{
+  z-index: 2;
+  height: 380px;
+  width: 650px;
+  position: absolute;
+  top: 85px;
+  left: 50px;
+  transition: 0.25s;
+  background: rgba(80,160,250,0.3)
+}
+.shade-right:hover{
+  opacity:0;
+}
+.contain-right{
+  position: absolute;
+  z-index: 3;
+  height: 300px;
+  width: 650px;
+  right: 50px;
+  top: 125px;
+  text-align: right;
+}
+.work-title{
+  position: relative;
+  color: ghostwhite;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30pt;
+  font-weight: normal;
+  top: 25px;
+}
+.work-des{
+  position: relative;
+  line-height:1.2;
+  letter-spacing: 1px;
+  background:rgb(34,54,102);
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  font-size: 14pt;
+  text-align: start;
+  top: 50px;
+  color: ghostwhite;
+  font-family: "Courier New", Courier, monospace;
+}
+.work-links{
+  position: relative;
+  top: 65px;
+}
+.work-icon{
+  margin: 0 10px !important;
+}
+.work-tech-right {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  top: 75px;
+}
+.each{
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  color: ghostwhite;
+  font-size: 12pt;
+  margin: 0 7px;
+}
+
+.work-img-left{
+  height: 380px;
+  width: 650px;
+  position: absolute;
+  top: 85px;
+  right: 50px;
+  z-index:1;
+}
+.shade-left{
+  z-index: 2;
+  height: 380px;
+  width: 650px;
+  position: absolute;
+  top: 85px;
+  right: 50px;
+  transition: 0.25s;
+  background: rgba(80,160,250,0.3)
+}
+.shade-left:hover{
+  opacity:0;
+}
+.contain-left{
+  position: absolute;
+  z-index: 3;
+  height: 300px;
+  width: 650px;
+  left: 50px;
+  top: 125px;
+  text-align: left;
+}
+.work-tech-left {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  top: 75px;
+}
+
 #works {
-  padding: 20vh 7vw 20vh 7vw;
-}
-.work-pics{
-  height:100%;
-  width: 100%;
-  margin:0 !important;
-}
-.work-pics:hover{
-  cursor: pointer;
+  padding: 5vh 7vw 20vh 7vw;
 }
 .see-more{
   text-align: center;
   margin-top: 5vh;
-}
-
-.gitLinks {
-  text-align: right;
-}
-
-.cardTitles {
-  padding: 2vh 2vw 0 2vw;
-  font-size: 2em !important;
-}
-
-.cardDescrip {
-  height: 25vh;
-  padding: 2vh 2vw 0 2vw;
-  line-height: 1.5;
-  font-size: 1.2em !important;
-  background: white;
-}
-.all-my-cards{
-  opacity: 0.9;
-  margin-bottom: 5vh !important;
 }
 .headers{
   font-size: 3em;
@@ -463,9 +551,6 @@ a {
   }
   .exp-shade,.my-list{
     flex-direction: column;
-  }
-  .cardDescrip{
-    font-size: 1.1em !important;
   }
   .see-more{
     margin-top: 10vh;
