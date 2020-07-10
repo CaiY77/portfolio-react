@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import {Button, Transition} from 'semantic-ui-react'
+import {Button} from 'semantic-ui-react'
 import Fade from 'react-reveal/Fade';
 
 class About extends Component {

@@ -235,17 +235,42 @@ a {
 }
 
 .experience-left{
-  flex: 4;
+  flex: 1;
+  padding-top: 6vh;
 }
 .experience-right{
   padding: 5vh;
-  flex: 7;
+  flex: 1;
 }
+.language{
+  height: 155px;
+  width: 155px;
+  margin: 10px 10px 10px 10px;
+}
+.skill-contain{
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media (max-width: 1250px) {
+  #experience{
+    flex-direction: column;
+  }
+  .language{
+    height: 85px;
+    width: 85px;
+  }
+}
+
 .my-list{
   width: 100%;
 }
 .exper-style{
-  margin: auto;
+  margin: 0;
+  padding:0;
+  padding: 0vh 0 3vh 0 !important;
 }
 .profile-pic{
   background: url(./images/prof.jpg);
@@ -263,6 +288,7 @@ a {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.4em;
   word-break: keep-all !important;
+  line-height: 1.8;
 }
 .quote{
   font-style: italic;
@@ -401,7 +427,7 @@ a {
   .exper-style{
     font-size: 2.2em !important;
     margin-top:10vh !important;
-    margin-bottom:10vh !important;
+    margin-bottom: 3vh !important;
     padding: 0;
   }
   .experience-right{

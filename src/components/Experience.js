@@ -1,7 +1,20 @@
 import React, { Component } from 'react';
+import Flip from 'react-reveal/Flip';
 import '../App.css';
-import {Icon} from 'semantic-ui-react'
 import Fade from 'react-reveal/Fade';
+import cpp from '../images/skill/cpp.png'
+import css from '../images/skill/css.png'
+import html from '../images/skill/html.png'
+import java from '../images/skill/java.png'
+import js from '../images/skill/javascript.png'
+import magento from '../images/skill/magento.png'
+import node from '../images/skill/nodejs.png'
+import post from '../images/skill/postgresql.png'
+import python from '../images/skill/python.png'
+import react from '../images/skill/react.png'
+import wp from '../images/skill/wordpress.png'
+import api from '../images/skill/api.png'
+
 
 class Experience extends Component {
 
@@ -21,30 +34,21 @@ class Experience extends Component {
           </div>
           <div className="experience-right">
             <h1 className ="headers exper-style">{ "<" } <span className="red"> Experience </span> {"/>"}</h1>
-            <div className="my-list">
-
-              <ul className="l-list">
-                <h2 className="list-header" > Proficient In </h2>
-                <Fade bottom duration={1000}><li className="list-style"><Icon name="js" /> Javascript / JS6</li></Fade>
-                <Fade bottom duration={1200}><li className="list-style"><Icon name="python" /> Python</li></Fade>
-                <Fade bottom duration={1400}><li className="list-style"><Icon name="react" /> React </li></Fade>
-                <Fade bottom duration={1600}><li className="list-style"><Icon name="right triangle" /> C++</li></Fade>
-                <Fade bottom duration={1800}><li className="list-style"><Icon name="html5" /> HTML / CSS</li></Fade>
-                <Fade bottom duration={2000}><li className="list-style"><Icon name="right triangle" /> Sequelize</li></Fade>
-                <Fade bottom duration={2200}><li className="list-style"><Icon name="right triangle" />  Express.js</li></Fade>
-                <Fade bottom duration={2400}><li className="list-style"><Icon name="right triangle" /> PostgreSQL</li></Fade>
-              </ul>
-
-              <ul className="l-list">
-                <h2 className="list-header list-extra"> Experienced With </h2>
-                <Fade bottom duration={1000}><li className="list-style"><Icon name="coffee"/> Java</li></Fade>
-                <Fade bottom duration={1200}><li className="list-style"><Icon name="gem" /> Ruby / Rails</li></Fade>
-                <Fade bottom duration={1400}><li className="list-style"><Icon name="node js" /> Node.js</li></Fade>
-                <Fade bottom duration={1600}><li className="list-style"><Icon name="right triangle" /> Axios</li></Fade>
-                <Fade bottom duration={1800}><li className="list-style"><Icon name="magento" /> Magento</li></Fade>
-                <Fade bottom duration={2000}><li className="list-style"><Icon name="wordpress" />WordPress</li></Fade>
-              </ul>
-
+            <div className="skill-contain">
+              <Flip top>
+                <img alt="Javascript" src={js} className='language'/>
+                <img alt="React.js" src={react} className='language'/>
+                <img alt="API" src={api} className='language'/>
+                <img alt="Node.js" src={node} className='language'/>
+                <img alt="PostgreSQL" src={post} className='language'/>
+                <img alt="Python" src={python} className='language'/>
+                <img alt="Java" src={java} className='language'/>
+                <img alt="C++" src={cpp} className='language'/>
+                <img alt="HTML" src={html} className='language'/>
+                <img alt="CSS" src={css} className='language'/>
+                <img alt="Magento" src={magento} className='language'/>
+                <img alt="Wordpress" src={wp} className='language'/>
+              </Flip>
             </div>
           </div>
         
