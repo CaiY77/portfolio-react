@@ -106,16 +106,19 @@ html {
   z-index: 100;
   width: 100%;
   top: 95px;
-  background: #222;
+  background: rgb(16,26,50);
   display: flex;
   flex-direction: column;
   padding: 50x 0;
+  border-top: solid ghostwhite 1px;
+  border-bottom: solid ghostwhite 1px;
 }
 
 .drop-wrap{
   padding: 55px 0px;
   text-align: center;
-  border: solid black 1px;
+  border-top: solid ghostwhite 1px;
+  border-bottom: solid ghostwhite 1px;
 }
 
 .drop-style{
