@@ -446,7 +446,7 @@ a {
   justify-content: flex-start;
   top: 75px;
 }
-@media (max-width: 1450px) {
+@media (max-width: 1400px) {
   .work-des{
     background: none;
   }
