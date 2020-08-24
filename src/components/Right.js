@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import exlink from '../icons/link.png'
 import github from '../icons/github.png'
+import Fade from 'react-reveal/Fade';
 
 class Right extends Component {
 
@@ -26,20 +27,22 @@ class Right extends Component {
 
         return ( 
             <div className='work-contain'>
-                <img className = 'work-img-right' alt="project screenshot"src={img} />
-                <a className = 'shade-right' href={link} target="_blank" rel="noopener noreferrer"> </a>
-                <div className = 'contain-right'>
+                <Fade right>
+                    <img className = 'work-img-right' alt="project screenshot"src={img} />
+                    <a className = 'shade-right' href={link} target="_blank" rel="noopener noreferrer"> </a>
+                    <div className = 'contain-right'>
 
-                    <a className = 'work-title' href={link} target="_blank" rel="noopener noreferrer">{title}</a>
-                    <div className='work-des'>{des}</div>
-                    <div className='work-links'>
-                        <a href={git} target="_blank" rel="noopener noreferrer"><img className="work-icon" alt="github" src={github} /></a>
-                        <a href={link} target="_blank" rel="noopener noreferrer"><img className="work-icon" alt="external link" src={exlink} /></a>
-                    </div>
-                    <div className="work-tech-right">
-                        {this.renderTech()}
-                    </div>
-                </div>  
+                        <a className = 'work-title' href={link} target="_blank" rel="noopener noreferrer">{title}</a>
+                        <div className='work-des'>{des}</div>
+                        <div className='work-links'>
+                            <a href={git} target="_blank" rel="noopener noreferrer"><img className="work-icon" alt="github" src={github} /></a>
+                            <a href={link} target="_blank" rel="noopener noreferrer"><img className="work-icon" alt="external link" src={exlink} /></a>
+                        </div>
+                        <div className="work-tech-right">
+                            {this.renderTech()}
+                        </div>
+                    </div>  
+                </Fade>
             </div>
          );
     }

@@ -14,8 +14,7 @@ class Works extends Component {
   render() {
     return (
       <section id="works">
-          <h1 className ="headers">{ "<" } <span className="red">My Works</span> {"/>"}</h1>
-
+          <h1 className ="headers">{ "<" } <span className="red">My Works</span> {"/>"}</h1>       
           <Left 
             img={track} 
             des="Track-Fit is a full-stack React application that runs Sequelize, PostgreSQL and Express based back end. It contains
@@ -68,7 +67,6 @@ class Works extends Component {
             git="https://github.com/CaiY77/PS_Final"
             tech={["JS/JS6","HTML","CSS", "JQuery"]}
           />
-       
        
         <div className="see-more">
         <a href="https://github.com/CaiY77" target="_blank" rel="noopener noreferrer"><Button inverted color='blue'>
